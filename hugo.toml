@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = 'Ada Null'
+disableKinds = ['taxonomy', 'term']
