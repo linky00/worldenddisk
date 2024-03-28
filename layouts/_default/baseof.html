@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    {{ $opts := dict "transpiler" "dartsass" "targetPath" "style.css" }}
+    {{- with resources.Get "style.sass" | toCSS $opts | minify -}}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{- end -}}
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
