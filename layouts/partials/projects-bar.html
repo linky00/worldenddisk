@@ -1,7 +1,7 @@
-<div>
-    <h1><a href="{{ .Site.BaseURL }}">Ada Null</a></h1>
-    <p>hello i am a projects bar here are the projects</p>
+<h1><a href="{{ .Site.BaseURL }}">Ada Null</a></h1>
+<p>hello i am a projects bar here are the projects</p>
+<ul>
     {{- range .Site.RegularPages -}}
-    <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{- end -}}
-</div>
+</ul>

@@ -11,12 +11,14 @@
     {{ end }}</title>
   </head>
   <body>
-    <div>
-      {{ partialCached "projects-bar.html" . }}
-    </div>
-    <div>
-      {{ block "main" . }}
-      {{ end }}
+    <div id="base">
+      <div id="projects-bar">
+        {{ partialCached "projects-bar.html" . }}
+      </div>
+      <div id="content">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
     </div>
   </body>
 </html>
