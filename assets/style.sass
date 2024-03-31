@@ -30,20 +30,28 @@ a:active
     height: 100%
     display: grid
     grid-template-columns: 16% 1fr
-    grid-template-rows: 20% 1fr
+    grid-template-rows: 25% 1fr
     grid-template-areas: "title main" "sidebar main"
 
-#title
+#title-corner
     grid-area: title
-    margin: 0
-    padding: 0.1em
+    background-color: black
+
+#title-box
+    background-color: black
+    position: fixed
+    top: 3vh
+    left: 3vh
+    background: linear-gradient(to right, black, black 10%, transparent), url('/svgs/noise.svg')
+    filter: contrast(170%) brightness(1000%)
+ 
+#title-text
+    margin: 0 2em 0 0
     font-family: "Quattrocento", serif
     font-weight: 700
     font-style: normal
     font-size: 20vh
     white-space: nowrap
-    overflow: visible
-    background-color: black
     color: white
 
 #sidebar

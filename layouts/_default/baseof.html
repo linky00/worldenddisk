@@ -11,8 +11,9 @@
     {{ end }}</title>
   </head>
   <body>
+    {{ partialCached "title.html" . }}
     <div id="base">
-      <h1 id="title"><a href="{{ .Site.BaseURL }}">Ada Null</a></h1>
+      <div id="title-corner"></div>
       <div id="sidebar">
         {{ partialCached "sidebar.html" . }}
       </div>
