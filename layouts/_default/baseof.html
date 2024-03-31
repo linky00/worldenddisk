@@ -14,9 +14,7 @@
     {{ partialCached "title.html" . }}
     <div id="base">
       <div id="title-corner"></div>
-      <div id="sidebar">
-        {{ partialCached "sidebar.html" . }}
-      </div>
+      {{ partialCached "sidebar.html" . }}
       <div id="content">
         {{ block "main" . }}
         {{ end }}

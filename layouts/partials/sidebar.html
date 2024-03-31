@@ -1,6 +1,8 @@
-<p>hello i am a projects bar here are the projects</p>
-<ul>
-    {{- range .Site.RegularPages -}}
-    <li class="project-link"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-    {{- end -}}
-</ul>
+<div id="sidebar">
+    <p>hello i am a projects bar here are the projects</p>
+    <ul>
+        {{- range .Site.RegularPages -}}
+        <li class="project-link"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end -}}
+    </ul>
+</div>
