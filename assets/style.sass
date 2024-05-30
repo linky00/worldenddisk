@@ -50,12 +50,23 @@ a:active
     background-color: black
 
 #title-box
+    display: grid
+    grid-template-columns: 30% 1fr
+    grid-template-rows: 1fr
+    grid-template-areas: "black gradient"
     position: fixed
     top: 3vh
     left: 3vh
 
-#title-background
+#title-background-black
     @include fill-container
+    grid-area: black
+    z-index: -1
+    background-color: #000
+
+#title-background-gradient
+    @include fill-container
+    grid-area: gradient
     z-index: -1
     background: url('svgs/noise-gradient.svg')
     background-size: cover
