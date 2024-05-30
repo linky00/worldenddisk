@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        filter: url(#AI_Alpha_4);
+      }
+    </style>
+    <filter id="AI_Alpha_4" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.15" numOctaves="4" result="turb" type="fractalNoise"/>
+      <feComposite in="SourceGraphic" in2="turb" operator="in"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0" y1="50" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset=".61" stop-color="#000"/>
+      <stop offset=".78" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="50" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset=".32" stop-color="#000"/>
+      <stop offset=".87" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-3">
+    <rect class="cls-1" width="100" height="100"/>
+  </g>
+  <rect class="cls-2" width="100" height="100"/>
+</svg>
