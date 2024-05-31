@@ -11,9 +11,9 @@
     {{ end }}</title>
   </head>
   <body>
-    {{ partialCached "title.html" . }}
+    {{ partialCached "site-title.html" . }}
     <div id="base">
-      <div id="title-corner"></div>
+      <div id="site-title-corner"></div>
       {{ partialCached "sidebar.html" . }}
       <div id="main">
         {{ block "main" . }}

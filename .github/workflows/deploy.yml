@@ -33,7 +33,7 @@ jobs:
         with:
           switches: -avzr --delete
           path: public/
-          remote_path: /var/www/html/
+          remote_path: /var/www/worldenddisk.com/
           remote_host: worldenddisk.com
           remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.SSH_KEY }}

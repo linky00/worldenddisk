@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,400&family=Quattrocento:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,400')
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=block&text=Ada%20Null')
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
 
 @mixin fill-container
     position: absolute
@@ -9,18 +11,26 @@
 
 $red: #ed3c2f
 
+$title-size: 8vw
+$content-title-size: 5rem
+$paragraph-size: 1.3rem
+
 html, body
     margin: 0
     padding: 0
     height: 100%
  
-p, li, h1, h2, h3, h4, h5, h6
-    font-family: "IBM Plex Mono", monospace
+p, li
+    font-family: "Lora", serif
     font-weight: 300
     font-style: normal
+    font-size: $paragraph-size
 
-p, li
-    font-size: 14pt
+h2
+    font-family: "IBM Plex Mono", monospace
+    font-weight: 400
+    font-style: italic
+    font-size: $content-title-size
 
 a
     text-decoration: none 
@@ -47,42 +57,43 @@ a:active
 #base
     height: 100%
     display: grid
-    grid-template-columns: 16% 1fr
+    grid-template-columns: 18% 1fr
     grid-template-rows: 25% 1fr
-    grid-template-areas: "title main" "sidebar main"
+    grid-template-areas: "site-title main" "sidebar main"
 
-#title-corner
-    grid-area: title
+#site-title-corner
+    grid-area: site-title
     background-color: black
 
-#title-box
+#site-title
     display: grid
     grid-template-columns: 50% 1fr
     grid-template-rows: 1fr
     grid-template-areas: "black gradient"
+    z-index: 1
     position: fixed
-    top: 3vh
+    top: 1vh
     left: 3vh
 
-#title-background-black
+#site-title-background-black
     @include fill-container
     grid-area: black
     z-index: -1
     background-color: #000
 
-#title-background-gradient
+#site-title-background-gradient
     @include fill-container
     grid-area: gradient
     z-index: -1
-    background-image: url('svgs/noise-gradient.png')
+    background-image: url('svgs/noise-gradient.svg')
     background-size: cover
 
-#title-text
-    margin: 0.05em 0.7em 0 0
+#site-title-text
+    margin: 0.05em 0.2em 0 0
     font-family: "Quattrocento", serif
     font-weight: 700
     font-style: normal
-    font-size: 20vh
+    font-size: $title-size
     white-space: nowrap
     color: white
 
@@ -100,6 +111,7 @@ a:active
     overflow-y: scroll
 
 #hero-container
+    position: relative
     height: 80%
 
 #hero-image
@@ -108,13 +120,22 @@ a:active
     object-fit: cover
 
 #content-title-box
-    position: relative
-    bottom: 3%
+    position: absolute
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    bottom: -3%
     right: 2%
     width: fit-content
-    background-color: #000
-    padding: 5pt
 
 #content-title-text
+    background-color: #000
+    margin: 0
+    padding: 5pt
+    width: fit-content
     color: #fff
-    font-size: 36pt
+    font-size: $content-title-size
+    white-space: pre
+
+#content
+    padding: 3%

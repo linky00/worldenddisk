@@ -6,8 +6,12 @@
     {{- $heroImage := .Resources.Get .Params.hero -}}
     <img id="hero-image" src="{{ $heroImage.RelPermalink }}">
     <div id="content-title-box">
-        <h1 id="content-title-text">{{ .Title }}</h1>
+        {{- range .Params.titleFormat -}}
+        <h2 id="content-title-text">{{ . }}</h2>
+        {{- end -}}
     </div>
 </div>
-{{ .Content }}
+<div id="content">
+    {{ .Content }}
+</div>
 {{- end -}}
