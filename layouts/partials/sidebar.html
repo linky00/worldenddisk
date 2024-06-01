@@ -1,8 +1,14 @@
 <div id="sidebar">
-    <p>Projects</p>
-    <ul>
+    <p class="sidebar-header">Projects</p>
+    <ul class="sidebar-list">
         {{- range .Site.RegularPages -}}
-        <li class="project-link"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end -}}
+        {{- $stuff := slice "Thing" "Other thing" "This is a Project" "I love making Content" "Content stuff" "Wheeeeee" -}}
+        {{- range seq 5 -}}
+        {{- range  $stuff -}}
+        <li class="sidebar-entry">{{ . }}</li>
+        {{- end -}}
         {{- end -}}
     </ul>
 </div>
