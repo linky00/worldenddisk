@@ -25,6 +25,7 @@
     @include fill-container
     grid-area: black
     background-color: #000
+    transform: scale(1.0001)
 
 #site-title-background-gradient
     @include fill-container
@@ -32,7 +33,8 @@
     background-image: url('/svgs/noise-gradient.svg')
     background-size: 100% auto
     shape-rendering: crispEdges
-    transform: scale(1.0001)
+    transform-origin: left
+    transform: scale(1.0001) translateZ(0)
 
 #site-title-text
     margin: 0.05em 0.2em 0 0
@@ -64,6 +66,7 @@
     #site-title-background-gradient
         background-image: url('/svgs/noise-gradient-down.svg')
         background-size: auto 100%
+        transform: scaleY(1.0001) translateZ(0)
 
     #site-title-text
         font-size: 20vw
