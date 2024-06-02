@@ -7,6 +7,17 @@
     {{- with resources.Get "style.sass" | toCSS $opts | minify -}}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end -}}
+    {{- with resources.Get "jquery-3.7.1.min.js" -}}
+    <script src="{{ .RelPermalink }}"></script>
+    {{- end -}}
+    <script>
+      $(function() {
+        $("#button-open-sidebar").on("click", function() {
+          console.log("clicked");
+          $("#base-wrapper").toggleClass("base-wrapper-shifted");
+        })
+      });
+    </script>
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
@@ -14,12 +25,14 @@
   <body>
     {{ partialCached "site-title.html" . }}
     {{ partialCached "ticker.html" . }}
-    <div id="base">
-      <div id="spacing-corner"></div>
-      {{ partialCached "sidebar.html" . }}
-      <div id="main">
-        {{ block "main" . }}
-        {{ end }}
+    <div id="base-wrapper">
+      <div id="base-grid">
+        <div id="spacing-corner"></div>
+        {{ partialCached "sidebar.html" . }}
+        <div id="main">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </body>

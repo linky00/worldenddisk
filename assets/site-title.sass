@@ -1,0 +1,82 @@
+@use "vars.sass" as *
+
+@mixin fill-container
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+#site-title
+    z-index: 3
+    position: fixed
+    top: 2vh
+    left: $site-title-left
+
+#site-title-background
+    @include fill-container
+    z-index: -1
+    display: grid
+    grid-template-columns: calc($sidebar-width - $site-title-left) 1fr 4fr
+    grid-template-rows: 1fr
+    grid-template-areas: "black black gradient"
+
+#site-title-background-black
+    @include fill-container
+    grid-area: black
+    background-color: #000
+
+#site-title-background-gradient
+    @include fill-container
+    grid-area: gradient
+    background-image: url('/svgs/noise-gradient.svg')
+    background-size: 100% auto
+
+#site-title-text
+    margin: 0.05em 0.2em 0 0
+    font-family: "Quattrocento", serif
+    font-weight: 700
+    font-style: normal
+    white-space: nowrap
+    color: white
+    user-select: none
+
+#button-open-sidebar
+    display: none
+
+@media (max-width: $mobile-width)
+    #site-title
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        top: 0
+        left: 0
+        width: 100vw
+        height: $site-title-height-mobile
+
+    #site-title-background
+        grid-template-columns: 1fr
+        grid-template-rows: 1fr 3fr
+        grid-template-areas: "black" "gradient"
+
+    #site-title-background-gradient
+        background-image: url('/svgs/noise-gradient-down.svg')
+        background-size: auto 100%
+
+    #site-title-text
+        font-size: 20vw
+        margin: 0 0 0 0
+    
+    #button-open-sidebar
+        display: block
+        width: 13vw
+        height: 13vw
+
+@media (min-width: $mobile-width + 1)
+    @media (min-aspect-ratio: $aspect-breakpoint)
+        #site-title-text
+            font-size: 18vh
+
+    @media (max-aspect-ratio: $aspect-breakpoint)
+        #site-title-text
+            font-size: calc(18vw * 1/$aspect-breakpoint)

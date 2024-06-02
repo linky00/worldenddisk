@@ -1,0 +1,14 @@
+@use "vars.sass" as *
+
+#sidebar
+    grid-area: sidebar
+    padding: 5%
+    overflow-x: hidden
+    overflow-y: auto
+    color: white
+    background-color: black
+
+@media (max-width: $mobile-width)
+    #sidebar
+        z-index: 2
+        padding: 1em

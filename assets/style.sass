@@ -1,26 +1,12 @@
 @use "sass:math"
+@use "site-title.sass"
+@use "ticker.sass"
+@use "sidebar.sass"
+@use "vars.sass" as *
     
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,400;0,600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,600;1,400&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=block&text=Ada%20Null')
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
-
-@mixin fill-container
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-
-$mobile-width: 800px
-$aspect-breakpoint: math.div(16, 9)
-
-$red: #ed3c2f
-
-$sidebar-width: 20rem
-
-$sidebar-size: 1.3rem
-$content-title-size: 5rem
-$paragraph-size: 1.3rem
 
 html, body
     margin: 0
@@ -74,109 +60,38 @@ a:active
 .sidebar-list
     list-style: square
 
-#site-title
-    z-index: 2
-    display: grid
-    grid-template-columns: 60% 1fr
-    grid-template-rows: 1fr
-    grid-template-areas: "black gradient"
-    position: fixed
-    top: 2vh
-    left: 4vh
-
-#site-title-background-black
-    @include fill-container
-    grid-area: black
-    background-color: #000
-
-#site-title-background-gradient
-    @include fill-container
-    grid-area: gradient
-    background-image: url('svgs/noise-gradient.svg')
-    background-size: cover
-
-#site-title-text
-    z-index: 1
-    margin: 0.05em 0.2em 0 0
-    font-family: "Quattrocento", serif
-    font-weight: 700
-    font-style: normal
-    white-space: nowrap
-    color: white
-    user-select: none
-
-@media (min-aspect-ratio: $aspect-breakpoint)
-    #site-title-text
-        font-size: 18vh
-
-@media (max-aspect-ratio: $aspect-breakpoint)
-    #site-title-text
-        font-size: calc(18vw * 1/$aspect-breakpoint)
-
-#ticker
-    z-index: 1
-    position: fixed
-    display: flex
-    align-items: center
-    overflow: hidden
-    left: $sidebar-width
-    top: 3%
-    background-color: $red
-    white-space: nowrap
-
-#ticker-text
-    color: white
-    font-family: "IBM Plex Mono"
-    font-size: 2vh
-    font-weight: 300
-    margin: 0
-    animation: scroll 80s linear infinite
-
-@keyframes scroll
-    0%
-        transform: translateX(0)
-    100%
-        transform: translateX(-100%)
-
-@media (min-aspect-ratio: $aspect-breakpoint)
-    #ticker
-        height: 5vh
-    
-    #ticker-text
-        font-size: 2vh
-
-@media (max-aspect-ratio: $aspect-breakpoint)
-    #ticker
-        height: calc(5vw * 1/$aspect-breakpoint)
-    
-    #ticker-text
-        font-size: calc(2vw * 1/$aspect-breakpoint)
-
-#base
+#base-grid
     width: 100vw
     height: 100vh
     display: grid
     grid-template-columns: $sidebar-width 1fr
     grid-template-areas: "spacing-corner main" "sidebar main"
 
-@media (min-aspect-ratio: $aspect-breakpoint)
-    #base
-        grid-template-rows: 25vh 1fr
+@media (max-width: $mobile-width)
+    #base-wrapper
+        position: fixed
+        left: -$sidebar-width
+        transition: left 0.3s ease-in-out
 
-@media (max-aspect-ratio: $aspect-breakpoint)
-    #base
-        grid-template-rows: calc(25vw * 1/$aspect-breakpoint) 1fr
+    #base-wrapper.base-wrapper-shifted
+        left: 0vw
+
+    #base-grid
+        // width: $sidebar-width + 100vw
+        grid-template-columns: $sidebar-width 100vw
+        grid-template-rows: $site-title-height-mobile 1fr
+
+@media (min-width: $mobile-width + 1)
+    @media (min-aspect-ratio: $aspect-breakpoint)
+        #base-grid
+            grid-template-rows: 25vh 1fr
+
+    @media (max-aspect-ratio: $aspect-breakpoint)
+        #base-grid
+            grid-template-rows: calc(25vw / $aspect-breakpoint) 1fr
 
 #spacing-corner
     grid-area: spacing-corner
-    background-color: black
-
-#sidebar
-    grid-area: sidebar
-    padding: 5%
-    overflow-x: hidden
-    overflow-y: auto
-    color: white
     background-color: black
 
 #main
