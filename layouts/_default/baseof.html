@@ -13,7 +13,6 @@
     <script>
       $(function() {
         $("#button-open-sidebar").on("click", function() {
-          console.log("clicked");
           $("#base-wrapper").toggleClass("base-wrapper-shifted");
         })
       });
@@ -23,10 +22,10 @@
     {{ end }}</title>
   </head>
   <body>
-    {{ partialCached "site-title.html" . }}
-    {{ partialCached "ticker.html" . }}
     <div id="base-wrapper">
       <div id="base-grid">
+        {{ partialCached "site-title.html" . }}
+        {{ partialCached "ticker.html" . }}
         <div id="spacing-corner"></div>
         {{ partialCached "sidebar.html" . }}
         <div id="main">
