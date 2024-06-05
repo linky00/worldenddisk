@@ -2,16 +2,22 @@
 {{ .Title }} | {{ .Site.Title }}
 {{- end -}}
 {{- define "main" -}}
-<div id="hero-container">
-    {{- $heroImage := .Resources.Get .Params.hero -}}
+{{- $heroImage := .Resources.Get .Params.hero -}}
+<div id="hero-image-container">
     <img id="hero-image" src="{{ $heroImage.RelPermalink }}">
+</div>
+<div id="hero-window">
+    {{/*  <div id="hero-gradient"></div>  */}}
     <div id="content-title-box">
         {{- range .Params.titleFormat -}}
-        <h2 id="content-title-text">{{ . }}</h2>
+        <h2 class="content-title-text">{{ . }}</h2>
         {{- end -}}
     </div>
 </div>
-<div id="content">
-    {{ .Content }}
+<div id="content-background">
+    <div id="content">
+        {{ .Content }}
+    </div>
 </div>
+
 {{- end -}}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 204.8 204.8"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="noise-gradient-up-white.svg"
+   inkscape:export-filename="noise-gradient.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="0.66183394"
+     inkscape:cx="601.35931"
+     inkscape:cy="528.07809"
+     inkscape:window-width="2560"
+     inkscape:window-height="1346"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false">
+    <inkscape:grid
+       id="grid403"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.75590551"
+       spacingy="0.75590551"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="linearGradient11"
+       x1="0"
+       y1="66.145836"
+       x2="132.29167"
+       y2="66.145836"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Noise Fill"
+       id="filter402"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="10"
+         numOctaves="1"
+         seed="0"
+         result="turbulence"
+         id="feTurbulence401" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite401" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 24.557700000000001 -4.1666699999999999"
+         result="color"
+         id="feColorMatrix401" />
+      <feFlood
+         flood-opacity="0"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood401" />
+      <feMerge
+         result="merge"
+         id="feMerge402">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode401" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode402" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite402" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:url(#linearGradient11);fill-opacity:1;stroke-width:0.266533;filter:url(#filter402)"
+       id="rect1-3"
+       width="132.29167"
+       height="132.29167"
+       x="-2.220446e-16"
+       y="-2.220446e-16"
+       inkscape:label="gradient"
+       transform="matrix(0,-2.0213557,1.5480944,0,3.7926514e-6,204.8)" />
+  </g>
+</svg>

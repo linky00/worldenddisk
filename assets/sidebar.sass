@@ -1,4 +1,4 @@
-@use "vars.sass" as *
+@use "globals.sass" as *
 
 #sidebar
     grid-area: sidebar
@@ -12,3 +12,17 @@
     #sidebar
         z-index: 2
         padding: 1em
+
+.sidebar-header, .sidebar-entry
+    color: white
+    font-family: "IBM Plex Mono"
+    font-size: $sidebar-size
+
+.sidebar-header
+    font-weight: 600
+
+.sidebar-entry
+    font-weight: 300
+
+.sidebar-list
+    list-style: square
