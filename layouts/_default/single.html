@@ -2,10 +2,14 @@
 {{ .Title }} | {{ .Site.Title }}
 {{- end -}}
 {{- define "main" -}}
-{{- $heroImage := .Resources.Get .Params.hero -}}
+{{- $redFilter := images.Colorize 4 70 100 -}}
 <div id="hero-image-container">
-    <img id="hero-image" src="{{ $heroImage.RelPermalink }}">
-    <div id="hero-image-overlay"></div>
+    {{- with .Resources.Get .Params.hero -}}
+    <img id="hero-image" src="{{ .RelPermalink }}">
+    {{- with . | images.Filter $redFilter -}}
+    <img id="hero-image-red" src="{{ .RelPermalink }}">
+    {{- end -}}
+    {{- end -}}
 </div>
 <div id="hero-window">
     {{/*  <div id="hero-gradient"></div>  */}}

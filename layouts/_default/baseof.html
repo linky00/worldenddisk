@@ -17,10 +17,9 @@
         });
         $("#main").scroll(() => {
           var scrollRatio = $("#main").scrollTop() / $("#hero-window").height();
-          const maxRatio = 0.8;
+          const maxRatio = 0.4;
           var effectRatio = scrollRatio / maxRatio;
-          $("#hero-image").css("filter", `grayscale(${effectRatio})`);
-          $("#hero-image-overlay").css("opacity", effectRatio);
+          $("#hero-image-red").css("opacity", effectRatio);
         })
       });
     </script>
