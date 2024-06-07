@@ -5,6 +5,7 @@
 {{- $heroImage := .Resources.Get .Params.hero -}}
 <div id="hero-image-container">
     <img id="hero-image" src="{{ $heroImage.RelPermalink }}">
+    <div id="hero-image-overlay"></div>
 </div>
 <div id="hero-window">
     {{/*  <div id="hero-gradient"></div>  */}}

@@ -11,9 +11,16 @@
     <script src="{{ .RelPermalink }}"></script>
     {{- end -}}
     <script>
-      $(function() {
-        $("#button-open-sidebar").on("click", function() {
+      $(() => {
+        $("#button-open-sidebar").on("click", () => {
           $("#base-wrapper").toggleClass("base-wrapper-shifted");
+        });
+        $("#main").scroll(() => {
+          var scrollRatio = $("#main").scrollTop() / $("#hero-window").height();
+          const maxRatio = 0.8;
+          var effectRatio = scrollRatio / maxRatio;
+          $("#hero-image").css("filter", `grayscale(${effectRatio})`);
+          $("#hero-image-overlay").css("opacity", effectRatio);
         })
       });
     </script>
