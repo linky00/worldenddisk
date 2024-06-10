@@ -7,6 +7,8 @@
     width: 100%
     height: 100%
 
+$site-title-font-size: 18
+
 #site-title
     z-index: 3
     position: fixed
@@ -80,8 +82,8 @@
 @media (min-width: $mobile-width + 1)
     @media (min-aspect-ratio: $aspect-breakpoint)
         #site-title-text
-            font-size: 18vh
+            font-size: $site-title-font-size * 1vh
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         #site-title-text
-            font-size: calc(18vw * 1/$aspect-breakpoint)
+            font-size: calc($site-title-font-size * 1vw / $aspect-breakpoint)

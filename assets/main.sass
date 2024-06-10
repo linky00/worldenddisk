@@ -6,6 +6,10 @@
     overflow-x: hidden
     overflow-y: scroll
 
+$hero-image-height: 82vh
+$hero-image-height-mobile: 73vh
+$content-title-font-size: 10
+
 #hero-image-container
     z-index: -1
     position: absolute
@@ -25,23 +29,13 @@
     position: relative 
     height: $hero-image-height
     background-color: transparent
-    
-#hero-gradient
-    position: absolute
-    width: 100%
-    height: 15%
-    bottom: 0
-    background-image: url('/svgs/noise-gradient-up-white.svg')
-    background-size: auto 100%
-    shape-rendering: crispEdges
-    transform: scaleY(1.0001) translateZ(0)
 
 #content-title-box
     position: absolute
     display: flex
     flex-direction: column
     align-items: flex-end
-    bottom: calc((100vh - $hero-image-height) * -0.7)
+    bottom: -4.5vh
     right: 2%
     width: fit-content
 
@@ -49,7 +43,6 @@
     font-family: "IBM Plex Mono", monospace
     font-weight: 400
     font-style: italic
-    font-size: $content-title-size
     background-color: black
     margin: 0
     padding: 5pt
@@ -57,32 +50,72 @@
     color: white
     white-space: pre
 
+@media (max-width: $mobile-width)
+    #hero-image-container
+        height: $hero-image-height-mobile
+    
+    #hero-window
+        height: $hero-image-height-mobile
+
+    .content-title-text
+        font-size: 6vh
+
+@media (min-width: $mobile-width + 1)
+    @media (min-aspect-ratio: $aspect-breakpoint)
+        .content-title-text
+            font-size: $content-title-font-size * 1vh
+
+    @media (max-aspect-ratio: $aspect-breakpoint)
+        .content-title-text
+            font-size: calc($content-title-font-size * 1vw / $aspect-breakpoint)
+
 #content-background
     background-color: white
-    padding-top: 100vh - $hero-image-height
+    padding: calc((100vh - $hero-image-height) * 0.48) 8% 0
 
 #content
-    margin: auto
-    width: 50rem
+    width: 100%
 
 #content > *
-    margin-left: auto
-    margin-right: auto
-
-#content > p, #content > ul, #content > ol
     font-family: "Lora", serif
     font-weight: 300
     font-style: normal
-    font-size: $paragraph-size
+    font-size: $paragraph-font-size
+
+.overview
+    display: grid
+    grid-template-columns: 1fr 2fr
+    gap: 15px
+    grid-template-areas: "text images"
+
+.overview-text
+    grid-area: text
+    margin: 0
+    font-size: $overview-font-size
+
+.overview-images
+    grid-area: images
+
+.overview-img
+    width: 100%
 
 .gallery
     display: flex
     width: 100%
     flex-wrap: wrap
     gap: 10px
-    align-items: center
+    align-items: start
 
 .gallery-img
     flex-grow: 1
-    flex-basis: 24rem
+    flex-basis: 30rem
     min-width: 0
+
+@media (max-width: 1000px)
+    #content-background
+        padding-right: 5%
+        padding-left: 5%
+
+    .overview
+        grid-template-columns: 1fr
+        grid-template-areas: "text" "images"
