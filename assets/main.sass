@@ -71,10 +71,11 @@ $content-title-font-size: 10
 
 #content-background
     background-color: white
-    padding: calc((100vh - $hero-image-height) * 0.48) 8% 0
+    padding-top: calc((100vh - $hero-image-height) * 0.48)
 
 #content
-    width: 100%
+    margin: auto
+    width: 80%
 
 #content > *
     font-family: "Lora", serif
@@ -84,8 +85,9 @@ $content-title-font-size: 10
 
 .overview
     display: grid
-    grid-template-columns: 1fr 2fr
-    gap: 15px
+    grid-template-columns: minmax(25rem, 1fr) var(--ratio)
+    grid-template-rows: min-content
+    gap: 30px
     grid-template-areas: "text images"
 
 .overview-text
@@ -93,28 +95,36 @@ $content-title-font-size: 10
     margin: 0
     font-size: $overview-font-size
 
+.overview-text > p:first-child
+    margin-top: 0
+
 .overview-images
     grid-area: images
+    max-height: 100%
+    display: flex
+    flex-direction: column
+    align-items: flex-end
 
 .overview-img
-    width: 100%
-
+    max-width: 100%
+    min-height: 0
+    flex: 1 0 0
+    
 .gallery
     display: flex
     width: 100%
     flex-wrap: wrap
-    gap: 10px
     align-items: start
+    gap: 10px
 
 .gallery-img
     flex-grow: 1
     flex-basis: 30rem
     min-width: 0
 
-@media (max-width: 1000px)
-    #content-background
-        padding-right: 5%
-        padding-left: 5%
+@media (max-width: 1200px)
+    #content
+        margin: 0 30px
 
     .overview
         grid-template-columns: 1fr
