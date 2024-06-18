@@ -14,6 +14,7 @@ $site-title-font-size: 18
     position: fixed
     top: 2vh
     left: $site-title-left
+    pointer-events: none
 
 #site-title-background
     @include fill-container
@@ -46,6 +47,7 @@ $site-title-font-size: 18
     white-space: nowrap
     color: white
     user-select: none
+    pointer-events: auto
 
 #button-open-sidebar
     display: none
@@ -72,7 +74,7 @@ $site-title-font-size: 18
 
     #site-title-text
         font-size: 20vw
-        margin: 0 0 0 0
+        margin: 0
     
     #button-open-sidebar
         display: block
