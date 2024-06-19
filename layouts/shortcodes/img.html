@@ -1,5 +1,1 @@
-{{- if .Parent -}}
-<img class="{{ .Parent.Name }}-item" src="{{ .Get 0 }}" alt="{{ .Get "alt" }}">
-{{- else -}}
-<img src="{{ .Get 0 }}" alt="{{ .Get "alt" }}">
-{{- end -}}
+<img {{ with .Parent }}class="{{ .Name }}-item"{{ end }} src="{{ .Get 0 }}" {{ with .Get 1 }}alt="{{ . }}"{{ end }}>
