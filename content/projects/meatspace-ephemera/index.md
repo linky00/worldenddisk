@@ -3,27 +3,32 @@ title = 'Meatspace Ephemera'
 date = 2024-03-31T10:21:20+01:00
 [params]
     titleFormat = ['Meatspace', 'Ephemera']
+    year = '2021'
     hero = 'itchio-3.png'
 +++
 
-{{< overview ratio="2">}}
+{{< overview >}}
 
 {{% overview-text %}}
-*Meatspace Ephemera* is a videogame. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus massa, gravida sit amet sapien ac, vestibulum sodales purus. Curabitur metus est, elementum sit amet tellus et, sollicitudin consequat libero.
+An online game about a dying server. Players explore the memories immortalised by dot-com failure NetMemo, guided by Emily-bot, a chatbot process that failed to die.
 {{% /overview-text %}}
 
 {{< overview-images >}}
-{{< overview-img itchio-2.png >}}
+{{< img ending-1.png >}}
 {{< /overview-images >}}
 
 {{< /overview >}}
 
 {{< gallery >}}
-{{< gallery-img itchio-1.png >}}
+{{< img itchio-2.png >}}
+{{< img itchio-1.png >}}
 {{< /gallery >}}
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus imperdiet dui scelerisque, gravida nibh ultrices, auctor libero. Donec lobortis hendrerit nulla, a laoreet urna. Morbi luctus eu purus ut lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin facilisis eu odio vitae sollicitudin. Duis bibendum porttitor cursus. Aenean tincidunt, magna ut mollis lobortis, ex eros varius sapien, eu consequat felis ante non ante. Donec fermentum est massa, et pretium nunc pellentesque non. Vestibulum nisl libero, eleifend sed aliquam eget, tristique ut nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras egestas auctor tristique. Maecenas dictum placerat metus, nec tempus tortor luctus a. 
+{{< img ending-2.png >}}
 
-alksdjf;lksdf
-
-alsdjfl;ksjdfo
+{{< gallery >}}
+{{< figure tumblr-1.jpg "from tumblr user 'exitwound'" >}}
+{{< figure tumblr-2.jpg "from tumblr user 'catilinas'" >}}
+{{< figure tumblr-3.jpg "from tumblr user 'catilinas'" >}}
+{{< figure tumblr-4.jpg "from tumblr user 'eckvark'" >}}
+{{< /gallery >}}

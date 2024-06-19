@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {{- $opts := dict "transpiler" "dartsass" "targetPath" "style.css" -}}
-    {{- with resources.Get "style.sass" | toCSS $opts | minify -}}
+    {{- with resources.Get "sass/style.sass" | toCSS $opts | minify -}}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end -}}
-    {{- with resources.Get "jquery-3.7.1.min.js" -}}
+    {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
     <script src="{{ .RelPermalink }}"></script>
     {{- end -}}
     <script>

@@ -1,0 +1,4 @@
+<figure {{ with .Parent.Name }}class="{{ . }}-item"{{ end }}>
+    <img class="figure-img" src="{{ .Get 0}}"{{ with .Get "alt" }}alt="{{ . }}"{{ end }}>
+    <figcaption class="figure-caption">{{ .Get 1 }}</figcaption>
+</figure>

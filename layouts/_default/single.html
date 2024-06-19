@@ -13,6 +13,7 @@
 </div>
 <div id="hero-window">
     <div id="content-title-box">
+        <h2 class="content-title-text content-title-text-year">({{ .Params.year }})</h2>
         {{- range .Params.titleFormat -}}
         <h2 class="content-title-text">{{ . }}</h2>
         {{- end -}}

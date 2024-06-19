@@ -9,6 +9,7 @@
 $hero-image-height: calc(100vh - 140px)
 $hero-image-height-mobile: calc(100vh - 120px)
 $content-title-font-size: 10
+$content-title-year-font-size: 4
 
 #hero-image-container
     z-index: -1
@@ -62,82 +63,21 @@ $content-title-font-size: 10
 
     .content-title-text
         font-size: 6vh
+    
+    .content-title-text-year
+        font-size: 4vh
 
 @media (min-width: $mobile-width + 1)
     @media (min-aspect-ratio: $aspect-breakpoint)
         .content-title-text
             font-size: $content-title-font-size * 1vh
+        
+        .content-title-text-year
+            font-size: $content-title-year-font-size * 1vh
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         .content-title-text
             font-size: calc($content-title-font-size * 1vw / $aspect-breakpoint)
-
-#content-background
-    background-color: white
-    padding-top: 80px
-
-#content
-    margin: auto
-    width: 70%
-
-.overview
-    display: grid
-    margin-bottom: 0
-    grid-template-columns: minmax(23rem, 1fr) var(--ratio)
-    grid-template-rows: min-content
-    gap: 30px
-    grid-template-areas: "text images"
-
-.overview-text
-    grid-area: text
-    margin: 0
-    font-size: $overview-font-size
-
-.overview-text > p:first-child
-    margin-top: 0
-
-.overview-text > p:last-child
-    margin-bottom: 0
-
-.overview-images
-    grid-area: images
-    display: flex
-    flex-direction: column
-    justify-content: center
-    gap: 20px
-
-.overview-img
-    max-width: 100%
-    // flex: 1 1 1
-    
-.gallery
-    display: flex
-    width: 100%
-    margin: 40px 0
-    flex-wrap: wrap
-    align-items: start
-    gap: 20px
-
-.gallery-img
-    flex-grow: 1
-    flex-basis: 30rem
-    min-width: 0
-
-@media (max-width: 1300px)
-    #content
-        margin: auto
-        width: calc(100% - 80px)
-
-    .overview
-        grid-template-columns: 1fr
-        grid-template-areas: "text" "images"
-
-    .overview-text
-        font-size: $overview-font-size-mobile
-
-@media (max-width: $mobile-width)
-    #content-background
-        padding-top: 35px
-
-    #content
-        margin: 0 auto 80px
+        
+        .content-title-text-year
+            font-size: calc($content-title-year-font-size * 1vw / $aspect-breakpoint)
