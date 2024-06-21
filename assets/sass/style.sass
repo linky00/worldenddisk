@@ -28,16 +28,16 @@ a
     text-decoration: none 
 
 a:link
-    color: inherit
-
-a:visited
-    color: inherit
-
-a:hover
     color: $red
 
+a:visited
+    color: $red
+
+a:hover
+    color: $brighter-red
+
 a:active
-    color: inherit
+    color: $brighter-red
 
 ::selection
     color: white
@@ -75,3 +75,8 @@ a:active
 #spacing-corner
     grid-area: spacing-corner
     background-color: black
+
+#main
+    grid-area: main
+    overflow-x: hidden
+    overflow-y: scroll

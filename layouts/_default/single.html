@@ -4,24 +4,34 @@
 {{- define "main" -}}
 {{- $redFilter := images.Colorize 4 70 100 -}}
 <div id="hero-image-container">
-    {{- with (.Resources.Get .Params.hero).Fill "1280x720 jpg" -}}
+    {{- with .Resources.Get .Params.hero -}}
+    {{- with .Fill "1920x1080 jpg" -}}
     <img id="hero-image" src="{{ .RelPermalink }}">
     {{- with . | images.Filter $redFilter -}}
     <img id="hero-image-red" src="{{ .RelPermalink }}">
     {{- end -}}
     {{- end -}}
+    {{- end -}}
 </div>
-<div id="hero-window">
-    <div id="content-title-box">
-        <h2 class="content-title-text content-title-text-year">({{ .Params.year }})</h2>
-        {{- range .Params.titleFormat -}}
-        <h2 class="content-title-text">{{ . }}</h2>
-        {{- end -}}
+<div id="main">
+    <div id="hero-window">
+        <header id="content-title">
+            {{- with .Params.year -}}
+            <p class="content-title-text content-title-text-year">({{ . }})</p>
+            {{- end -}}
+            <h1 id="content-title-heading">
+                {{- with .Params.titleFormat -}}
+                {{- range . -}}
+                <span class="content-title-text">{{ . }}</span><br>
+                {{- end -}}
+                {{- end -}}
+            </h1>
+        </header>
     </div>
-</div>
-<div id="content-background">
-    <div id="content">
-        {{ .Content }}
+    <div id="content-background">
+        <div id="content">
+            {{ .Content }}
+        </div>
     </div>
 </div>
 {{- end -}}

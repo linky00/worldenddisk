@@ -1,11 +1,6 @@
 @use "globals.sass" as *
 @use "sass:math"
 
-#main
-    grid-area: main
-    overflow-x: hidden
-    overflow-y: scroll
-
 $hero-image-height: calc(100vh - 140px)
 $hero-image-height-mobile: calc(100vh - 120px)
 $content-title-font-size: 10
@@ -13,12 +8,15 @@ $content-title-year-font-size: 4
 
 #hero-image-container
     z-index: -1
-    position: absolute
+    grid-area: main
+    position: relative
     width: 100%
     height: $hero-image-height
 
 #hero-image, #hero-image-red
     position: absolute
+    top: 0
+    left: 0
     width: 100%
     height: 100%
     object-fit: cover
@@ -31,7 +29,7 @@ $content-title-year-font-size: 4
     height: $hero-image-height
     background-color: transparent
 
-#content-title-box
+#content-title
     position: absolute
     display: flex
     flex-direction: column
@@ -39,6 +37,12 @@ $content-title-year-font-size: 4
     bottom: -30px
     right: 2%
     width: fit-content
+
+#content-title > *
+    margin: 0
+
+#content-title-heading
+    text-align: right
 
 .content-title-text
     font-family: "IBM Plex Mono", monospace
@@ -50,9 +54,6 @@ $content-title-year-font-size: 4
     width: fit-content
     color: white
     white-space: pre
-
-// .content-title-text.content-title-text-year
-//     font-style: normal
 
 @media (max-width: $mobile-width)
     #hero-image-container

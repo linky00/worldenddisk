@@ -4,11 +4,11 @@
         {{- range .Site.RegularPages -}}
         <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{- end -}}
-        {{- $stuff := slice "Thing" "Other thing" "This is a Project" "I love making Content" "Content stuff" "Wheeeeee" -}}
+        {{/*  {{- $stuff := slice "Thing" "Other thing" "This is a Project" "I love making Content" "Content stuff" "Wheeeeee" -}}
         {{- range seq 5 -}}
         {{- range  $stuff -}}
         <li class="sidebar-entry">{{ . }}</li>
         {{- end -}}
-        {{- end -}}
+        {{- end -}}  */}}
     </ul>
 </nav>

@@ -1,7 +1,7 @@
 @use "globals.sass" as *
 @use "sass:math"
     
-$big-margin: 50px
+$big-margin: 40px
 $image-margin: 20px
 
 #content-background
@@ -15,6 +15,19 @@ $image-margin: 20px
 
 #content > *
     margin: 0 0 $big-margin
+
+#content > img
+    width: 100%
+
+figure
+    margin: 0
+
+.figure-img
+    width: 100%
+
+.figure-caption
+    font-style: italic
+    text-align: end
 
 .overview
     display: grid
@@ -48,7 +61,6 @@ $image-margin: 20px
 .gallery
     display: flex
     width: 100%
-    margin: 40px 0
     flex-wrap: wrap
     align-items: start
     gap: $image-margin
@@ -57,18 +69,13 @@ $image-margin: 20px
     flex: 1 1 400px
     min-width: 0
 
-#content > img
-    width: 100%
+.itchio
+    width: 552px
+    height: 167px
 
-figure
-    margin: 0
-
-.figure-img
-    width: 100%
-
-.figure-caption
-    font-style: italic
-    text-align: end
+@media (max-width: 650px)
+    .itchio
+        width: 208px
 
 @media (max-width: 1300px)
     #content

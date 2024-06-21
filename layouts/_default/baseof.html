@@ -34,10 +34,8 @@
         {{ partialCached "ticker.html" . }}
         <div id="spacing-corner"></div>
         {{ partialCached "sidebar.html" . }}
-        <div id="main">
-          {{ block "main" . }}
-          {{ end }}
-        </div>
+        {{ block "main" . }}
+        {{ end }}
       </div>
     </div>
   </body>
