@@ -52,6 +52,6 @@ The game was released in 2021, and for a few days, a tiny community surrounded i
 {{< figure src=tumblr-2.jpg caption="from Tumblr user 'catilinas'" >}}
 {{< /gallery >}}
 
-<iframe frameborder="0" src="https://itch.io/embed/917677" width="552" height="167"><a href="https://worldenddisk.itch.io/meatspace-ephemera">Meatspace Ephemera by WORLDENDDISK</a></iframe>
+{{< itchio 917677 >}}
 
-(n.b. The game is currently offline.)
+**(n.b. The game is currently offline.)**
