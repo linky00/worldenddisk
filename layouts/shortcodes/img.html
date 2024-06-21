@@ -1,2 +1,2 @@
-{{- $image := (.Page.Resources.Get (.Get "src")).Fit "1200x1200 jpg" -}}
+{{- $image := (.Page.Resources.Get (.Get "src")).Fit .Site.Params.imgFit -}}
 <img {{ with .Parent }}class="{{ .Name }}-item"{{ end }} src="{{ $image.RelPermalink }}" {{ with .Get "alt" }}alt="{{ . }}"{{ end }}>

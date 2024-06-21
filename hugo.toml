@@ -9,3 +9,6 @@ disableKinds = ['section', 'taxonomy', 'term']
             unsafe = true
         [markup.goldmark.parser]
             wrapStandAloneImageWithinParagraph = false
+
+[params]
+    imgFit = "1920x1920 jpg"
