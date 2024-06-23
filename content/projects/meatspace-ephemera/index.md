@@ -24,9 +24,17 @@ An online game about a dying server. Players explore the memories immortalised b
 {{< img src=itchio-1.png alt="gameplay screenshot of office" >}}
 {{< /gallery >}}
 
-*Meatspace Ephemera* begins with a player receiving an in-universe invatation to the game. The unique 'server ID' corresponds to a unique instance of the game.
+{{< columns >}}
 
+{{% column %}}
+*Meatspace Ephemera* begins with a player receiving an in-universe invatation to the game. The unique 'server ID' corresponds to a unique instance of the game.
+{{% /column %}}
+
+{{% column %}}
 {{< img src=invitation.png >}}
+{{% /column %}}
+
+{{< /columns >}}
 
 Upon connecting, the player finds themself in a world of corrupting memories. NetMemo's failed business would take client's text descriptions of places they had lost, such as childhood homes and faraway countries, and attempt to render them in three dimensions.
 
