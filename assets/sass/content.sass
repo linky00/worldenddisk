@@ -12,17 +12,18 @@ $image-margin: 20px
     margin: auto
     width: 70%
     line-height: 1.3
+    container-type: inline-size
 
 #content > *
     margin: 0 0 $big-margin
 
-#content > img
+.content-image
     width: 100%
 
 figure
     margin: 0
 
-.figure-img
+figure > img
     width: 100%
 
 .figure-caption
@@ -33,7 +34,6 @@ figure
     display: grid
     --ratio: 2fr
     grid-template-columns: minmax(23rem, 1fr) var(--ratio)
-    grid-template-rows: min-content
     gap: $big-margin
     grid-template-areas: "text images"
 
@@ -55,7 +55,7 @@ figure
     justify-content: center
     gap: $image-margin
 
-.overview-images-item
+.overview-images-image
     max-width: 100%
     
 .gallery
@@ -65,15 +65,36 @@ figure
     align-items: start
     gap: $image-margin
 
-.gallery-item
+.gallery-image
     flex: 1 1 400px
     min-width: 0
+
+.columns
+    display: grid
+    --ratio: 1fr
+    grid-template-columns: 1fr var(--ratio)
+    gap: $big-margin
+
+.column
+    container-type: inline-size
+
+.column > *
+    max-width: 100%
+
+.column > *:first-child
+    margin-top: 0
+
+.column > *:last-child
+    margin-bottom: 0
+
+.column-image
+    width: 100%
 
 .itchio
     width: 552px
     height: 167px
 
-@media (max-width: 650px)
+@container (max-width: 552px)
     .itchio
         width: 208px
 
@@ -85,6 +106,9 @@ figure
     .overview
         grid-template-columns: 1fr
         grid-template-areas: "text" "images"
+    
+    .columns
+        grid-template-columns: 1fr
 
 @media (max-width: $mobile-width)
     #content-background
