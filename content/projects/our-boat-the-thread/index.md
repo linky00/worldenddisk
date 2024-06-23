@@ -48,14 +48,40 @@ The game has been installed at Limits and Demonstrations, [Shuffle](https://shuf
 {{< img src=shuffle.png >}}
 {{< /gallery >}}
 
+{{< columns >}}
+
+{{% column %}}
 *our boat, the Thread* was written about by Gabrielle de la Puente for The White Pube. From the article:
 
-"The boat chugged over lakes, through a half-sunken church, into dark sewers and glowing caves. At one point, the player had to keep the boat straight across a tense waterfall bridge that stretched across blank space with no boundaries. We arrived into a starry globe where a translucent ghost standing next to a bonfire was waiting on the shores to meet us. I got completely pulled into the whole thing. I couldn’t really believe that this was in a BA degree show."
+*"The boat chugged over lakes, through a half-sunken church, into dark sewers and glowing caves. At one point, the player had to keep the boat straight across a tense waterfall bridge that stretched across blank space with no boundaries. We arrived into a starry globe where a translucent ghost standing next to a bonfire was waiting on the shores to meet us. I got completely pulled into the whole thing. I couldn’t really believe that this was in a BA degree show."*
 
 [Read the article here.](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/) (It's very beautiful.)
+{{% /column %}}
 
+{{% column %}}
 {{< instagram C8Ra-KYIjtm >}}
+{{% /column %}}
+
+{{< /columns >}}
 
 An adaptation of the game played with a mouse is available on itch.io:
 
 {{< itchio 2776296 >}}
+
+{{< columns >}}
+
+{{% column %}}
+A spoken recording of the 'Flowers' path of the game was created for Ashley Holmes's [*... and other possibilities*](https://radio.montezpress.com/#/show/3389), a collection of audio works broadcast by Montez Press Radio.
+
+Listen:
+
+{{< audio boat.mp3 >}}
+{{% /column %}}
+
+{{% column %}}
+{{< img src=montez-press.jpg >}}
+
+{{% /column %}}
+
+{{< /columns>}}
+
