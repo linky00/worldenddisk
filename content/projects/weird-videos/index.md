@@ -4,7 +4,7 @@ date = 2024-06-21T17:25:54+01:00
 [params]
     titleFormat = ['Weird', 'Videos']
     year = '2020'
-    hero = 'screenshot.jpg'
+    hero = 'screenshot-1.jpg'
 +++
 
 {{< overview >}}
