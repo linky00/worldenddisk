@@ -68,13 +68,12 @@ a:active
             grid-template-rows: calc($site-title-height-mobile * 1vh * $aspect-breakpoint-mobile)
 
 @media (min-width: $mobile-width)
-    @media (min-aspect-ratio: $aspect-breakpoint)
-        #base-grid
-            grid-template-rows: 25vh 1fr
+    #base-grid
+            grid-template-rows: max(25vh, 80px) 1fr
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         #base-grid
-            grid-template-rows: calc(25vw / $aspect-breakpoint) 1fr
+            grid-template-rows: max(calc(25vw / $aspect-breakpoint), 80px) 1fr
 
 #spacing-corner
     grid-area: spacing-corner
