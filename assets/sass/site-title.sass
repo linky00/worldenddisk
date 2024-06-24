@@ -98,8 +98,16 @@ $button-open-sidebar-size: 13
 
     @media (min-aspect-ratio: $aspect-breakpoint-mobile)
         #site-title
+            justify-content: left
+            gap: 20px
             height: calc($site-title-height-mobile * 1vh * $aspect-breakpoint-mobile)
         
+        #site-title:before
+            content: ""
+        
+        #site-title:after
+            content: ""
+
         #site-title-text
             font-size: calc($site-title-font-size-mobile * 1vh * $aspect-breakpoint-mobile)
         

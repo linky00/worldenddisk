@@ -2,9 +2,9 @@
 @use "sass:math"
 
 $hero-image-height: calc(100vh - 140px)
-$hero-image-height-mobile: calc(100vh - 120px)
+$hero-image-height-mobile: calc(100vh - 160px)
 $content-title-font-size: 10
-$content-title-year-font-size: 4
+$content-title-year-font-size: 6
 
 #hero-image-container
     z-index: -1
@@ -66,18 +66,24 @@ $content-title-year-font-size: 4
         bottom: -20px
 
     .content-title-text
-        font-size: 6vh
+        font-size: $content-title-font-size * 1vw
     
     .content-title-text-year
-        font-size: 4vh
-
-@media (min-width: $mobile-width )
-    @media (min-aspect-ratio: $aspect-breakpoint)
+        font-size: $content-title-year-font-size * 1vw
+    
+    @media (min-aspect-ratio: $aspect-breakpoint-mobile)
         .content-title-text
-            font-size: $content-title-font-size * 1vh
+            font-size: calc($content-title-font-size * 1vh * $aspect-breakpoint-mobile)
         
         .content-title-text-year
-            font-size: $content-title-year-font-size * 1vh
+            font-size: calc($content-title-year-font-size * 1vh * $aspect-breakpoint-mobile)
+
+@media (min-width: $mobile-width)
+    .content-title-text
+        font-size: $content-title-font-size * 1vh
+    
+    .content-title-text-year
+        font-size: $content-title-year-font-size * 1vh
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         .content-title-text
