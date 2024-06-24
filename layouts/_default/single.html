@@ -17,12 +17,12 @@
     <div id="hero-window">
         <header id="content-title">
             {{- with .Params.year -}}
-            <p class="content-title-text content-title-text-year">({{ . }})</p>
+            <p class="content-title-text content-title-text-year"><span class="content-title-span">({{ . }})</span></p>
             {{- end -}}
-            <h1 id="content-title-heading">
+            <h1 class="content-title-text">
                 {{- with .Params.titleFormat -}}
                 {{- range . -}}
-                <span class="content-title-text">{{ . }}</span><br>
+                <span class="content-title-span">{{ . }}</span><br>
                 {{- end -}}
                 {{- end -}}
             </h1>

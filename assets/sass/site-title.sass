@@ -8,6 +8,8 @@
     height: 100%
 
 $site-title-font-size: 18
+$site-title-font-size-mobile: 20
+$button-open-sidebar-size: 13
 
 #site-title
     z-index: 3
@@ -73,7 +75,7 @@ $site-title-font-size: 18
         top: 0
         left: 0
         width: 100vw
-        height: $site-title-height-mobile
+        height: $site-title-height-mobile * 1vw
 
     #site-title-background
         grid-template-columns: 1fr
@@ -86,18 +88,28 @@ $site-title-font-size: 18
         transform: scaleY(1.0001) translateZ(0)
 
     #site-title-text
-        font-size: 20vw
+        font-size: $site-title-font-size-mobile * 1vw
         margin: 0
     
     #button-open-sidebar
         display: block
-        width: 13vw
-        height: 13vw
+        width: $button-open-sidebar-size * 1vw
+        height: $button-open-sidebar-size * 1vw
 
-@media (min-width: $mobile-width + 1)
-    @media (min-aspect-ratio: $aspect-breakpoint)
+    @media (min-aspect-ratio: $aspect-breakpoint-mobile)
+        #site-title
+            height: calc($site-title-height-mobile * 1vh * $aspect-breakpoint-mobile)
+        
         #site-title-text
-            font-size: $site-title-font-size * 1vh
+            font-size: calc($site-title-font-size-mobile * 1vh * $aspect-breakpoint-mobile)
+        
+        #button-open-sidebar
+            width: calc($button-open-sidebar-size * 1vh * $aspect-breakpoint-mobile)
+            height: calc($button-open-sidebar-size * 1vh * $aspect-breakpoint-mobile)
+
+@media (min-width: $mobile-width)
+    #site-title-text
+        font-size: $site-title-font-size * 1vh
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         #site-title-text

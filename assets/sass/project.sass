@@ -38,9 +38,6 @@ $content-title-year-font-size: 4
     right: 2%
     width: fit-content
 
-#content-title > *
-    margin: 0
-
 #content-title-heading
     text-align: right
 
@@ -48,12 +45,15 @@ $content-title-year-font-size: 4
     font-family: "IBM Plex Mono", monospace
     font-weight: 400
     font-style: italic
-    background-color: black
     margin: 0
-    padding: 5pt
     width: fit-content
     color: white
     white-space: pre
+    text-align: right
+
+.content-title-span
+    background-color: black
+    padding: 0.06em
 
 @media (max-width: $mobile-width)
     #hero-image-container
@@ -71,7 +71,7 @@ $content-title-year-font-size: 4
     .content-title-text-year
         font-size: 4vh
 
-@media (min-width: $mobile-width + 1)
+@media (min-width: $mobile-width )
     @media (min-aspect-ratio: $aspect-breakpoint)
         .content-title-text
             font-size: $content-title-font-size * 1vh

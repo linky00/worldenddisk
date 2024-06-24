@@ -61,9 +61,13 @@ a:active
 
     #base-grid
         grid-template-columns: $sidebar-width 100vw
-        grid-template-rows: $site-title-height-mobile 1fr
+        grid-template-rows: calc($site-title-height-mobile * 1vw) 1fr
 
-@media (min-width: $mobile-width + 1)
+    @media (min-aspect-ratio: $aspect-breakpoint-mobile)
+        #base-grid
+            grid-template-rows: calc($site-title-height-mobile * 1vh * $aspect-breakpoint-mobile)
+
+@media (min-width: $mobile-width)
     @media (min-aspect-ratio: $aspect-breakpoint)
         #base-grid
             grid-template-rows: 25vh 1fr
