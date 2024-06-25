@@ -2,6 +2,7 @@
 @use "sass:math"
     
 $big-margin: 40px
+$paragraph-margin: 20px
 $image-margin: 20px
 
 #content-background
@@ -15,9 +16,16 @@ $image-margin: 20px
     container-type: inline-size
 
 #content > *
-    margin: 0 0 $big-margin
+    margin: $big-margin 0 $big-margin
+
+#content > p
+    margin: $paragraph-margin 0 $paragraph-margin
+
+#content > *:first-child
+    margin-top: 0
 
 .content-image
+    display: block
     width: 100%
 
 figure
@@ -80,6 +88,10 @@ figure > img
 
 .column > *
     max-width: 100%
+    margin: $big-margin 0 $big-margin
+
+.column > p
+    margin: $paragraph-margin 0 $paragraph-margin
 
 .column > *:first-child
     margin-top: 0
@@ -89,6 +101,7 @@ figure > img
 
 .column-image
     width: 100%
+    display: block
 
 .itchio
     width: 552px
