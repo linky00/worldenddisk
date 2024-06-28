@@ -2,7 +2,7 @@
 title = 'Customer Support Chatbot'
 date = 2024-06-28T16:30:19+01:00
 [params]
-    titleFormat = ['Customer', 'Support', 'Chatbot']
+    titleFormat = ['Customer', 'Support Chatbot']
     year = '2021'
     hero = 'screenshot.png'
 +++
