@@ -2,6 +2,7 @@
 title = 'Storytelling'
 date = 2024-06-28T17:27:17+01:00
 [params]
+    release = 2021-04-30
     titleFormat = ['Storytelling']
     year = '2021'
     hero = 'closetv.png'

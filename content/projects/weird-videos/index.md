@@ -2,6 +2,7 @@
 title = 'Weird Videos'
 date = 2024-06-21T17:25:54+01:00
 [params]
+    release = 2020-11-16
     titleFormat = ['Weird', 'Videos']
     year = '2020'
     hero = 'screenshot-1.jpg'

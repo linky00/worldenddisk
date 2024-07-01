@@ -2,6 +2,7 @@
 title = 'our boat, the Thread'
 date = 2024-06-20T15:36:01+01:00
 [params]
+    release = 2024-03-15
     titleFormat = ['our boat,', 'the Thread ']
     year = '2024'
     hero = 'installation.png'

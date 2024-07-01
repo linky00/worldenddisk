@@ -2,6 +2,7 @@
 title = 'Wren Church'
 date = 2024-06-28T16:59:55+01:00
 [params]
+    release = 2021-04-11
     titleFormat = ['Wren Church']
     year = '2021'
     hero = 'screenshot.png'

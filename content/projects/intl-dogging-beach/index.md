@@ -2,6 +2,7 @@
 title = 'INTL. DOGGING BEACH'
 date = 2024-06-28T16:21:43+01:00
 [params]
+    release = 2022-03-24
     titleFormat = ['INTL.', 'DOGGING BEACH']
     year = '2022'
     hero = 'photo-1.jpg'

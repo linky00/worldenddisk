@@ -2,6 +2,7 @@
 title = 'The Fisherman'
 date = 2024-06-24T12:23:42+01:00
 [params]
+    release = 2023-03-18
     titleFormat = ['The Fisherman']
     year = '2023'
     hero = 'screenshot-1.png'

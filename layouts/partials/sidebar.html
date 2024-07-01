@@ -1,14 +1,8 @@
 <nav id="sidebar">
     <p class="sidebar-header">Projects</p>
     <ul class="sidebar-list">
-        {{- range .Site.RegularPages -}}
+        {{- range sort .Site.RegularPages "Params.release" "desc" -}}
         <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{- end -}}
-        {{/*  {{- $stuff := slice "Thing" "Other thing" "This is a Project" "I love making Content" "Content stuff" "Wheeeeee" -}}
-        {{- range seq 5 -}}
-        {{- range  $stuff -}}
-        <li class="sidebar-entry">{{ . }}</li>
-        {{- end -}}
-        {{- end -}}  */}}
     </ul>
 </nav>

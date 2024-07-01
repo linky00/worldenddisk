@@ -4,6 +4,7 @@ date = 2024-06-28T16:30:19+01:00
 [params]
     titleFormat = ['Customer', 'Support Chatbot']
     year = '2021'
+    release = 2021-11-01
     hero = 'screenshot.png'
 +++
 

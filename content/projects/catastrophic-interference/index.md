@@ -2,6 +2,7 @@
 title = 'Catastrophic Interference'
 date = 2024-06-28T17:51:19+01:00
 [params]
+    release = 2021-02-18
     titleFormat = ['Catastrophic', 'Interference']
     year = '2021'
     hero = 'screenshot-2.png'

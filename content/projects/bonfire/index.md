@@ -2,6 +2,7 @@
 title = 'Bonfire'
 date = 2024-06-28T17:14:02+01:00
 [params]
+    release = 2021-08-12
     titleFormat = ['Bonfire']
     year = '2021'
     hero = 'screenshot-1.png'
