@@ -1,8 +1,11 @@
 <nav id="sidebar">
-    <p class="sidebar-header">Projects</p>
+    <p class="sidebar-header">Archive</p>
+    {{- range .Site.RegularPages.GroupByParamDate "release" "2006" "desc" -}}
+    <p class="sidebar-subheader">{{ .Key }}</p>
     <ul class="sidebar-list">
-        {{- range sort .Site.RegularPages "Params.release" "desc" -}}
+        {{- range .Pages -}}
         <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{- end -}}
     </ul>
+    {{- end -}}
 </nav>
