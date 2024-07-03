@@ -1,7 +1,10 @@
 baseURL = 'https://worldenddisk.com/'
 languageCode = 'en-gb'
 title = 'Ada Null'
-disableKinds = ['section', 'taxonomy', 'term']
+disableKinds = ['section']
+
+[taxonomies]
+    tag = 'tags'
 
 [markup]
     [markup.goldmark]

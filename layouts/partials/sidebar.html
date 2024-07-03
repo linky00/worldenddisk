@@ -1,4 +1,10 @@
 <nav id="sidebar">
+    <p class="sidebar-header">Selected Projects</p>
+    <ul class="sidebar-list">
+        {{- range sort .Site.Taxonomies.tags.selected "Params.release" "desc" -}}
+        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} <em>({{ .Params.year }})</em></a></li>
+        {{- end -}}
+    </ul>
     <p class="sidebar-header">Archive</p>
     {{- range .Site.RegularPages.GroupByParamDate "release" "2006" "desc" -}}
     <p class="sidebar-subheader">{{ .Key }}</p>

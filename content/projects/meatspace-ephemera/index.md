@@ -1,6 +1,7 @@
 +++
 title = 'Meatspace Ephemera'
 date = 2024-03-31T10:21:20+01:00
+tags = ['selected']
 [params]
     release = 2021-03-11
     titleFormat = ['Meatspace', 'Ephemera']
