@@ -1,7 +1,8 @@
 <nav id="sidebar">
     <p class="sidebar-header">Selected Projects</p>
     <ul class="sidebar-list">
-        {{- range sort .Site.Taxonomies.tags.selected "Params.release" "desc" -}}
+        {{- $selectedPages := where .Site.RegularPages "Params.selected" true -}}
+        {{- range sort $selectedPages "Params.release" "desc" -}}
         <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} <em>({{ .Params.year }})</em></a></li>
         {{- end -}}
     </ul>
