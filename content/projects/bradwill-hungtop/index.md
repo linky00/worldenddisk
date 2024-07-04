@@ -11,7 +11,7 @@ date = 2024-06-28T16:03:17+01:00
 {{< overview >}}
 
 {{% overview-text %}}
-Comedy visual novel about tradwives, party bottoms, and Charli XCX. Made in collaboration with [Will Pollock](https://www.instagram.com/jpeg.admirer/).
+Comedy visual novel about tradwives, party bottoms, and Charli XCX. Made in collaboration with [Will Pollock](https://www.instagram.com/jpeg.admirer/), and with character designs by [Ellie Morris](https://www.instagram.com/star.artt2/).
 
 This will never see the light of day.
 {{% /overview-text %}}
