@@ -2,41 +2,26 @@
 {{ .Title }} | {{ .Site.Title }}
 {{- end -}}
 {{- define "main" -}}
-{{- $redFilter := images.Colorize 4 70 100 -}}
-{{- if .Params.hero -}}
+{{- $heroMode := isset .Params "hero" }}
+{{- if $heroMode -}}
 {{- with resources.Get "js/hero_scrolling.js" | minify -}}
 <script src="{{ .RelPermalink }}" async></script>
 {{- end -}}
-<div id="hero-image-container">
-    {{- with .Resources.Get .Params.hero -}}
-    {{- with .Fill "1920x1080 jpg" -}}
-    <img id="hero-image" src="{{ .RelPermalink }}">
-    {{- with . | images.Filter $redFilter -}}
-    <img id="hero-image-red" src="{{ .RelPermalink }}">
-    {{- end -}}
-    {{- end -}}
-    {{- end -}}
-</div>
+{{- partial "hero-image.html" . }}
 {{- end -}}
-<div id="main">
+<article id="main">
+    {{- if $heroMode -}}
     <div id="hero-window">
-        <header id="content-title">
-            {{- with .Params.year -}}
-            <p class="content-title-text content-title-text-year"><span class="content-title-span">({{ . }})</span></p>
-            {{- end -}}
-            <h1 class="content-title-text">
-                {{- with .Params.titleFormat -}}
-                {{- range . -}}
-                <span class="content-title-span">{{ . }}</span><br>
-                {{- end -}}
-                {{- end -}}
-            </h1>
-        </header>
+        {{- partial "content-title.html" . }}
     </div>
-    <div id="content-background">
+    {{- end -}}
+    <div id="content-background" {{- if $heroMode -}}class="with-hero"{{- end -}}>
         <div id="content">
+            {{- if not $heroMode -}}
+            {{- partial "content-title.html" . -}}
+            {{- end -}}
             {{ .Content }}
         </div>
     </div>
-</div>
+</article>
 {{- end -}}

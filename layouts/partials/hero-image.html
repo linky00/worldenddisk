@@ -1,0 +1,11 @@
+{{- $redFilter := images.Colorize 4 70 100 -}}
+<div id="hero-image-container">
+    {{- with .Resources.Get .Params.hero -}}
+    {{- with .Fill "1920x1080 jpg" -}}
+    <img id="hero-image" src="{{ .RelPermalink }}">
+    {{- with . | images.Filter $redFilter -}}
+    <img id="hero-image-red" src="{{ .RelPermalink }}">
+    {{- end -}}
+    {{- end -}}
+    {{- end -}}
+</div>
