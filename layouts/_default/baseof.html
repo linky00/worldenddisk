@@ -10,6 +10,9 @@
     {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
     <script src="{{ .RelPermalink }}"></script>
     {{- end -}}
+    {{- with resources.Get "js/mobile_sidebar.js" | minify }}
+    <script src="{{ .RelPermalink }}"></script>
+    {{- end -}}
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
