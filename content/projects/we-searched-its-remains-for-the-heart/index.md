@@ -8,3 +8,5 @@ date = 2024-07-04T22:28:31+01:00
 +++
 
 {{< img src=riso.png >}}
+
+Submitted to [20:20 Print Exchange 2023](https://www.2020printexchange.com/2023).
