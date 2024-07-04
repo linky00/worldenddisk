@@ -3,7 +3,7 @@
     <ul class="sidebar-list">
         {{- $selectedPages := where .Site.RegularPages "Params.selected" true -}}
         {{- range sort $selectedPages "Params.release" "desc" -}}
-        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} <em>({{ .Params.year }})</em></a></li>
+        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} ({{ .Params.year }})</a></li>
         {{- end -}}
     </ul>
     <p class="sidebar-header">Archive</p>
