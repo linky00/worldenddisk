@@ -12,7 +12,7 @@ date = 2024-06-20T15:36:01+01:00
 {{< overview >}}
 
 {{% overview-text %}}
-A videogame installation in which the players steers a motorboat into the underworld with a physical tiller. The game tells a branching narrative of queer grief and empire within a necropolitical mythology. Made in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/).
+Videogame installation. The players steer a motorboat into the underworld with a physical tiller. The game tells a branching narrative of queer grief and empire within a necropolitical mythology. Made in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/).
 {{% /overview-text %}}
 
 {{< overview-images >}}
@@ -26,7 +26,7 @@ A videogame installation in which the players steers a motorboat into the underw
 {{< img src=screenshot-2.png >}}
 {{< /gallery >}}
 
-The protagonist's lover, a childhood friend who became empress, is dead. With her, the underworld she shaped in her own image is crumbling. You play as the Fates, steering the protagonist in her old motorboat where she must go.
+The protagonist's lover, the childhood friend who would become empress, is dead. The underworld shaped in her own image is crumbling with her. You play as the Fates, steering the protagonist in her old motorboat to do what must be done.
 
 {{< gallery >}}
 {{< img src=screenshot-3.png >}}
