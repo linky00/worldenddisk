@@ -7,7 +7,7 @@
         {{- end -}}
     </ul>
     <p class="sidebar-header">Archive</p>
-    {{- range .Site.RegularPages.GroupByParamDate "release" "2006" "desc" -}}
+    {{- range (where .Site.RegularPages "Section" "projects").GroupByParamDate "release" "2006" "desc" -}}
     <p class="sidebar-subheader">{{ .Key }}</p>
     <ul class="sidebar-list">
         {{- range .Pages -}}
