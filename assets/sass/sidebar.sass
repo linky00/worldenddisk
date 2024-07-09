@@ -2,7 +2,7 @@
 
 #sidebar
     grid-area: sidebar
-    padding: 5%
+    padding: 1.5em 1em 0
     overflow-x: hidden
     overflow-y: auto
     color: white
@@ -14,7 +14,7 @@
 @media (max-width: $mobile-width)
     #sidebar
         z-index: 2
-        padding: 1em
+        padding-bottom: 5em
         font-size: $sidebar-font-size-mobile
 
 #sidebar > *
@@ -23,27 +23,31 @@
 #sidebar > ul
     margin-bottom: 20px
 
-.sidebar-header
+#sidebar > .sidebar-header
     font-weight: 600
     font-size: 1.25em
+    margin-top: 30px
 
-.sidebar-subheader
+#sidebar > .sidebar-subheader
     font-style: italic
     font-size: 1.1em
+
+#sidebar > *:first-child
+    margin-top: 0
 
 .sidebar-entry
     font-weight: 300
 
-.sidebar-entry > a:link
+.sidebar-link:link
     color: inherit
 
-.sidebar-entry > a:visited
+.sidebar-link:visited
     color: inherit
 
-.sidebar-entry > a:hover
+.sidebar-link:hover
     color: $red
 
-.sidebar-entry > a:active
+.sidebar-link:active
     color: $red
 
 .sidebar-list
