@@ -21,11 +21,11 @@
     <div id="base-wrapper">
       <div id="base-grid">
         {{ partialCached "site-title.html" . }}
-        {{ partialCached "ticker.html" . }}
         <div id="spacing-corner"></div>
         {{ partialCached "sidebar.html" . }}
         {{ block "main" . }}
         {{ end }}
+        {{ partialCached "ticker.html" . }}
       </div>
     </div>
   </body>
