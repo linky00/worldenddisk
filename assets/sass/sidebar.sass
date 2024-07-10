@@ -11,6 +11,18 @@
     font-family: "IBM Plex Mono"
     font-size: $sidebar-font-size
 
+    a:link
+        color: inherit
+
+    a:visited
+        color: inherit
+
+    a:hover
+        color: $red
+
+    a:active
+        color: $red
+
 @media (max-width: $mobile-width)
     #sidebar
         z-index: 2
@@ -37,18 +49,6 @@
 
 .sidebar-entry
     font-weight: 300
-
-.sidebar-link:link
-    color: inherit
-
-.sidebar-link:visited
-    color: inherit
-
-.sidebar-link:hover
-    color: $red
-
-.sidebar-link:active
-    color: $red
 
 .sidebar-list
     list-style: square
