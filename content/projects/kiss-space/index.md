@@ -6,6 +6,7 @@ date = 2024-07-04T13:26:03+01:00
     titleFormat = ['Kiss Space']
     year = '2023'
     hero = 'performance-1.jpg'
+    selected = true
 +++
 
 {{< overview >}}
