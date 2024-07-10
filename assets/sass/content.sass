@@ -8,8 +8,12 @@ $image-margin: 20px
 #content-background
     background-color: white
     padding-top: 12vh
+    padding-bottom: 30px
 
 #content-background.with-hero
+    padding-top: 70px
+
+#content-background.at-home
     padding-top: 70px
 
 #content
@@ -21,7 +25,7 @@ $image-margin: 20px
 #content > *
     margin: $big-margin 0 $big-margin
 
-#content > p
+#content > p, #content > ul, #content > ol
     margin: $paragraph-margin 0 $paragraph-margin
 
 #content > *:first-child
@@ -103,7 +107,7 @@ figure > img
     max-width: 100%
     margin: $big-margin 0 $big-margin
 
-.column > p
+.column > p, .column > ul, .column > ol
     margin: $paragraph-margin 0 $paragraph-margin
 
 .column > *:first-child
