@@ -1,3 +1,14 @@
 {{- define "main" -}}
-{{ .Content }}
+<article id="main">
+    {{- with .Resources.Get .Params.hero -}}
+    {{- with .Fill "1920x1080 jpg" -}}
+    <img id="home-hero" src="{{ .RelPermalink }}">
+    {{- end -}}
+    {{- end -}}
+    <div id="content-background" class="at-home">
+        <div id="content">
+            {{ .Content }}
+        </div>
+    </div>
+</article>
 {{- end -}}
