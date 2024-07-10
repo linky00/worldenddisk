@@ -1,0 +1,3 @@
+{{- with .Site.GetPage (.Get 0) -}}
+<a class="internal-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{- end -}}

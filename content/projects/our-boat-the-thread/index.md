@@ -43,7 +43,7 @@ Depending on the path taken, the game concludes in one of three wildly divergent
 
 The game was produced in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/). He produced the wooden tiller controller and the incredible soundscape.
 
-The game has been installed at Limits and Demonstrations, [Shuffle](https://shuffleshuffleshuffle.co.uk/), and most recently [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/). 
+The game has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), and most recently [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/). 
 
 {{< gallery >}}
 {{< img src=limits.jpg >}}
