@@ -11,10 +11,10 @@ $image-margin: 20px
     padding-bottom: 30px
 
 #content-background.with-hero
-    padding-top: 70px
+    padding: 70px 0 70px
 
 #content-background.at-home
-    padding-top: 70px
+    padding: 70px 0 70px
 
 #content
     margin: auto
@@ -30,6 +30,9 @@ $image-margin: 20px
 
 #content > *:first-child
     margin-top: 0
+
+#content > *:last-child
+    margin-bottom: 0
 
 .content-image
     display: block
@@ -129,6 +132,9 @@ figure > img
         width: 208px
 
 @media (max-width: 1300px)
+    #content-background.at-home
+        padding: 40px 0 40px
+
     #content
         margin: auto
         width: calc(100% - 80px)
