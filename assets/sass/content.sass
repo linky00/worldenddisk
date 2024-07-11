@@ -1,8 +1,9 @@
 @use "globals.sass" as *
 @use "sass:math"
-    
+
 $big-margin: 40px
 $paragraph-margin: 20px
+$above-header-margin: 60px
 $image-margin: 20px
 
 #content-background
@@ -22,6 +23,15 @@ $image-margin: 20px
     line-height: 1.3
     container-type: inline-size
 
+    h2, h3, h4, h5, h6
+        margin: $above-header-margin 0 $paragraph-margin
+
+    figure
+        margin: 0
+
+    figure > img
+        width: 100%
+
 #content > *
     margin: $big-margin 0 $big-margin
 
@@ -36,12 +46,6 @@ $image-margin: 20px
 
 .content-image
     display: block
-    width: 100%
-
-figure
-    margin: 0
-
-figure > img
     width: 100%
 
 .figure-caption
