@@ -26,8 +26,8 @@ Twelve strangers are leaving Earth in a hurry. If they're to reach their destina
 The work juxtaposes hard sci-fi with soft human stories, a rigidly defined simulation with messy themes of romance and sexuality. It's inspired by the malleability of fiction, the intricacies of queer communities, and that youthful feeling that love might be a matter of life and death.
 
 {{< gallery >}}
-{{< figure src=party-rules.png caption="algorithm for the 'party' scenes" >}}
-{{< figure src=simulation-output.png caption="example of simulation output" >}}
+{{% figure src=party-rules.png %}}algorithm for the 'party' scenes{{% /figure %}}
+{{% figure src=simulation-output.png %}}example of simulation output{{% /figure %}}
 {{< /gallery >}}
 
 It was first exhibited as a live performance, with a projected VCV Rack soundscape. It was later installed as static speakers with computerised voiceover.

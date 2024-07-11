@@ -43,9 +43,9 @@ Upon connecting, the player finds themself in a world of corrupting memories. Ne
 The core mechanic of *Meatspace Ephemera* is the 'gates' that require a minimum number of players to traverse. The initial player must share their code with others in order to see more of the world; first two, then four, and finally eight players exploring the world at once, seeking hidden spaces together.
 
 {{< gallery >}}
-{{< figure src=screenshot.png >}}
-{{< figure src=tumblr-1.jpg caption="from Tumblr user 'exitwound'" >}}
-{{< figure src=tumblr-3.jpg caption="from Tumblr user 'catilinas'" >}}
+{{< img src=screenshot.png >}}
+{{% figure src=tumblr-1.jpg %}}from Tumblr user 'exitwound'{{% /figure %}}
+{{% figure src=tumblr-3.jpg %}}from Tumblr user 'catilinas'{{% /figure %}}
 {{< /gallery >}}
 
 The game ends inside the memory of a funeral. Emily-Bot says her final goodbyes to the world she became caretaker of, while a singularity of corruption overhead rips apart the crematorium lifts the players into the skies. After the ending, that instance of the game is closed off forever.
@@ -57,9 +57,9 @@ The game was released in 2021, and for a few days, a tiny community surrounded i
 {{< gallery >}}
 {{< img src=tumblr-6.png >}}
 {{< img src=tumblr-7.png >}}
-{{< figure src=tumblr-5.jpg caption="from Tumblr user 'wine-dark-soup'" >}}
-{{< figure src=tumblr-4.jpg caption="from Tumblr user 'eckvark'" >}}
-{{< figure src=tumblr-2.jpg caption="from Tumblr user 'catilinas'" >}}
+{{% figure src=tumblr-5.jpg %}}from Tumblr user 'wine-dark-soup'{{% /figure %}}
+{{% figure src=tumblr-4.jpg %}}from Tumblr user 'eckvark'{{% /figure %}}
+{{% figure src=tumblr-2.jpg %}}from Tumblr user 'catilinas'{{% /figure %}}
 {{< /gallery >}}
 
 {{< itchio 917677 >}}
