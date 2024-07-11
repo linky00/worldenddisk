@@ -97,7 +97,7 @@ figure > img
     gap: $big-margin $image-margin 
 
 .gallery-image
-    flex: 1 1 400px
+    flex: 1 1 40%
     min-width: 0
 
 .columns
@@ -141,13 +141,17 @@ figure > img
     #content
         margin: auto
         width: calc(100% - 80px)
-
+    
     .overview
         grid-template-columns: 1fr
         grid-template-areas: "text" "images"
-    
+
+@media (max-width: 1000px)
     .columns
         grid-template-columns: 1fr
+    
+    .gallery-image
+        flex-basis: 100%
 
 @media (max-width: $mobile-width)
     #content-background
