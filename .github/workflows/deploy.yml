@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Create git log JSON
+        uses: ./.github/actions/commits-json
       - name: Build with Hugo
         env:
           HUGO_ENV: production
