@@ -7,5 +7,5 @@ function set_red() {
 
 $(() => {
   set_red();
-  $("#main").scroll(set_red);
+  $("#main").on("scroll", set_red);
 });
