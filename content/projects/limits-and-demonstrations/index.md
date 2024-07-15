@@ -25,6 +25,8 @@ Directed and produced by Ada Null. Held at the Bridewell Galleries in Liverpool.
 
 ## The Entrance
 
+The exhibition begins with a performance by Hannah Browne. To pass through the main entrance, you must sacrifice something to the building.
+
 {{< gallery >}}
 {{< img src=hannah-2.png >}}
 {{< img src=hannah-3.png >}}
@@ -32,6 +34,8 @@ Directed and produced by Ada Null. Held at the Bridewell Galleries in Liverpool.
 {{< /gallery >}}
 
 ## The Halls
+
+Up the stairs, and down into the basement.
 
 {{< columns >}}
 
@@ -48,6 +52,8 @@ Directed and produced by Ada Null. Held at the Bridewell Galleries in Liverpool.
 
 ## The Small Gallery
 
+Three hanging works, poems all.
+
 {{< img src=wide-2.png >}}
 
 {{< gallery >}}
@@ -58,6 +64,8 @@ Directed and produced by Ada Null. Held at the Bridewell Galleries in Liverpool.
 
 ## The Lobby
 
+A space to rest, and consider.
+
 {{< img src=wide-3.png >}}
 
 {{< gallery >}}
@@ -66,6 +74,8 @@ Directed and produced by Ada Null. Held at the Bridewell Galleries in Liverpool.
 {{< /gallery >}}
 
 ## The Walls
+
+A maze of hanging muslin walls.
 
 {{< img src=walls.jpg >}}
 
