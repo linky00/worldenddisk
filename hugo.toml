@@ -1,4 +1,4 @@
-baseURL = 'https://test.worldenddisk.com/'
+baseURL = 'https://worldenddisk.com/'
 languageCode = 'en-gb'
 title = 'Ada Null'
 disableKinds = ['section', 'taxonomy', 'term']
