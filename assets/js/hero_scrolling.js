@@ -1,7 +1,7 @@
 function set_red() {
-  var scrollRatio = $("#main").scrollTop() / $("#hero-window").height();
+  let scrollRatio = $("#main").scrollTop() / $("#hero-window").height();
   const maxRatio = 0.4;
-  var effectRatio = scrollRatio / maxRatio;
+  let effectRatio = scrollRatio / maxRatio;
   $("#hero-image-red").css("opacity", effectRatio);
 }
 
