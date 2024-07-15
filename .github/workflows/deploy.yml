@@ -7,10 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build_deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.124.1
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,11 +22,10 @@ jobs:
           submodules: recursive
       - name: Build with Hugo
         env:
-          HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           hugo --minify
-      - name: rsync deployments
+      - name: Deploy with rsync
         uses: burnett01/rsync-deployments@7.0.0
         with:
           switches: -avzr --delete
