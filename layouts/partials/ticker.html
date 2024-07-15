@@ -1,5 +1,14 @@
-{{ $text := "ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * ticker text * "}}
+{{- with resources.Get "js/ticker.js" | minify -}}
+<script src="{{ .RelPermalink }}" async></script>
+{{- end -}}
+{{- $text := "" -}}
+{{- with .Site.Data.commits -}}
+{{- range (shuffle .) -}}
+{{- $commit := printf "[%s] %s | " .hash .message -}}
+{{- $text = printf "%s%s" $text $commit }}
+{{- end -}}
 <div id="ticker">
-    <p id="ticker-text">{{ $text }}</p>
-    <p id="ticker-text">{{ $text }}</p>
+    <p class="ticker-text">{{ $text }}</p>
+    <p class="ticker-text">{{ $text }}</p>
 </div>
+{{- end -}}
