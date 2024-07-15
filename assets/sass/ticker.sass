@@ -15,12 +15,14 @@ $ticker-font-size: 1.8
     white-space: nowrap
     pointer-events: none
 
-#ticker-text
+.ticker-text
     color: white
     font-family: "IBM Plex Mono"
     font-weight: 300
     margin: 0
-    animation: scroll 80s linear infinite
+    --scroll-time: 1000s
+    animation: scroll var(--scroll-time) linear infinite
+    white-space: pre
 
 @keyframes scroll
     from
@@ -36,7 +38,7 @@ $ticker-font-size: 1.8
         width: 100%
         height: 1.6rem
     
-    #ticker-text
+    .ticker-text
         font-size: 0.8rem
         
 
@@ -45,12 +47,12 @@ $ticker-font-size: 1.8
         #ticker
             height: $ticker-height * 1vh
         
-        #ticker-text
+        .ticker-text
             font-size: $ticker-font-size * 1vh
 
     @media (max-aspect-ratio: $aspect-breakpoint)
         #ticker
             height: calc($ticker-height * 1vw / $aspect-breakpoint)
         
-        #ticker-text
+        .ticker-text
             font-size: calc($ticker-font-size * 1vw / $aspect-breakpoint)
