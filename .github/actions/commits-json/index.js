@@ -13,6 +13,7 @@ async function run() {
             hash: commit.oid.slice(0, 7),
             date: new Date(commit.commit.author.timestamp * 1000)
         }));
+        fs.mkdirSync('data', {recursive: true});
         fs.writeFileSync('data/commits.json', JSON.stringify(commits, null, 4));
     } catch (error) {
         core.setFailed(error.message);
