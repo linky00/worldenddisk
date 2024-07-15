@@ -23,8 +23,7 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENV: production
-        run: |
-          hugo --minify
+        run: hugo --minify
       - name: Deploy with rsync
         uses: burnett01/rsync-deployments@7.0.0
         with:
