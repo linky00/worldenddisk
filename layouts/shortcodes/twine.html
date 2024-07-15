@@ -1,0 +1,3 @@
+{{- with .Page.Resources.Get ( .Get 0 ) -}}
+<iframe src="{{ .RelPermalink }}" class="twine"></iframe>
+{{- end -}}
