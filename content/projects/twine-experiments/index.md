@@ -11,10 +11,10 @@ date = 2024-07-15T22:13:03+01:00
 
 Written to practice the voices for another project.
 
-{{< twine holding.twine >}}
+{{< twine "/twine/holding.html" >}}
 
 ## *Alienation* (2023)
 
 Supposed to be part of a larger narrative. Might come back to this.
 
-{{< twine alienation.twine >}}
+{{< twine "/twine/alienation.html" >}}
