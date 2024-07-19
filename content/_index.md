@@ -21,6 +21,8 @@ Selected works include:
 - {{< internal-link "projects/kiss-space" >}}, a sci-fi narrative simulation of friendship and romance
 
 She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group exhibition of the ambitious and the strange.
+
+Contact by [email](mailto:ada@worldenddisk.com) or on [Instagram](https://instagram.com/worldenddisk).
 {{% /column %}}
 
 {{% column %}}
