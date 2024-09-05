@@ -8,7 +8,7 @@ async function run() {
             fs,
             dir: '.'
         });
-        let commits = log.map((commit) => ({
+        let commits = log.map(commit => ({
             message: commit.commit.message.trim(),
             hash: commit.oid.slice(0, 7),
             date: new Date(commit.commit.author.timestamp * 1000)
