@@ -1,4 +1,5 @@
 <nav id="sidebar">
+    <a class="sidebar-link" href="/">About</a><br>
     {{- range where .Site.RegularPages "Section" "" -}}
     <a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     {{- end -}}
