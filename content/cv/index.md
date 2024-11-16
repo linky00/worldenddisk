@@ -9,6 +9,8 @@ date = 2024-11-16T01:14:01Z
 
 ### 2024
 
+*Occupy*, IDEAS WORK, Liverpool
+
 *Shuffle*, Tobacco Warehouse, Liverpool
 
 *Limits & Demonstrations*, Bridewell Studios and Gallery, Liverpool
