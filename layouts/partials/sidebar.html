@@ -1,7 +1,6 @@
 <nav id="sidebar">
-    <a class="sidebar-link" href="/">About</a><br>
-    {{- range where .Site.RegularPages "Section" "" -}}
-    <a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- range site.Menus.main -}}
+    <p><a class="sidebar-link" href="{{ .URL }}">{{ .Name }}</a></p>
     {{- end -}}
     <p class="sidebar-header">Selected Projects</p>
     <ul class="sidebar-list">

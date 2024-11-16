@@ -10,5 +10,16 @@ disableKinds = ['section', 'taxonomy', 'term']
         [markup.goldmark.parser]
             wrapStandAloneImageWithinParagraph = false
 
+[menus]
+    [[menus.main]]
+        name = "About"
+        pageRef = "/"
+    [[menus.main]]
+        name = "CV"
+        pageRef = "cv"
+    [[menus.main]]
+        name = "Source code"
+        url = "https://github.com/linky00/worldenddisk"
+
 [params]
     imgFit = "1920x1920 jpg"
