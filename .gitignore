@@ -1,6 +1,5 @@
 public/
 resources/
 /.hugo_build.lock
-dist/
 node_modules/
 data/commits.json
