@@ -9,6 +9,8 @@ date = 2024-11-16T01:14:01Z
 
 ### 2024
 
+*Granny Ludski's Wild Gardening*, Rio Cinema, London
+
 *Occupy*, IDEAS WORK, Liverpool
 
 *Shuffle*, Tobacco Warehouse, Liverpool
