@@ -37,4 +37,4 @@ date = 2024-11-16T01:14:01Z
 
 *The Exhibition as Performance*, Sarah James on {{< internal-link "projects/limits-and-demonstrations" >}}, Art Monthly, September 2024
 
-[*the LJMU degree show*](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/), The White Pube, June 2024
+[*the LJMU degree show*](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/), The White Pube on {{< internal-link "projects/our-boat-the-thread" >}}, June 2024
