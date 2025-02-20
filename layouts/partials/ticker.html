@@ -1,6 +1,3 @@
-{{- with resources.Get "js/ticker.js" | minify -}}
-<script src="{{ .RelPermalink }}" async></script>
-{{- end -}}
 {{- $text := "" -}}
 {{- with .Site.Data.commits -}}
 {{- range (shuffle .) -}}

@@ -4,9 +4,6 @@
 {{- define "main" -}}
 {{- $heroMode := isset .Params "hero" }}
 {{- if $heroMode -}}
-{{- with resources.Get "js/hero_scrolling.js" | minify -}}
-<script src="{{ .RelPermalink }}" async></script>
-{{- end -}}
 {{- partial "hero-image.html" . }}
 {{- end -}}
 <article id="main">
