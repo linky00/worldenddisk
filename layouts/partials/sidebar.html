@@ -1,6 +1,6 @@
 <nav id="sidebar">
     {{- range site.Menus.main -}}
-    <p><a class="sidebar-link" href="{{ .URL }}">{{ .Name }}</a></p>
+    <p><a class="sidebar-link" href="{{ .URL }}" {{ if isset .Params "external" }}rel="external" target="_blank"{{ end }}>{{ .Name }}</a></p>
     {{- end -}}
     <p class="sidebar-header">Selected Projects</p>
     <ul class="sidebar-list-major">

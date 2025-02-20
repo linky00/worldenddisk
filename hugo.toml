@@ -18,8 +18,20 @@ disableKinds = ['section', 'taxonomy', 'term']
         name = "CV"
         pageRef = "cv"
     [[menus.main]]
-        name = "Source code"
+        name = "Instagram"
+        url = "https://www.instagram.com/worldenddisk/"
+        [menus.main.params]
+            external = true
+    [[menus.main]]
+        name = "Email"
+        url = "mailto:ada@worldenddisk.com"
+        [menus.main.params]
+            external = true
+    [[menus.main]]
+        name = "Site source"
         url = "https://github.com/linky00/worldenddisk"
+        [menus.main.params]
+            external = true
 
 [params]
     imgFit = "1920x1920 jpg"
