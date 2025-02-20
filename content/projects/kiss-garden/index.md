@@ -6,6 +6,7 @@ date = 2025-02-20T11:07:14Z
     titleFormat = ['Kiss Garden']
     year = '2024'
     hero = 'legs.png'
+    selected = true
 +++
 
 {{< overview >}}

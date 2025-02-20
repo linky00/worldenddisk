@@ -19,8 +19,9 @@ Selected works include:
 - {{< internal-link "projects/the-fisherman" >}}, a gallery of experimental poems
 - {{< internal-link "projects/meatspace-ephemera" >}}, an online game of dying memories
 - {{< internal-link "projects/kiss-space" >}}, a sci-fi narrative simulation of friendship and romance
+- {{< internal-link "projects/kiss-garden" >}}, a grounded narrative simulation of dyke sex and malaise
 
-She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group exhibition of the ambitious and the strange.
+She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group show celebrating the ambitious and the strange.
 
 Contact by [email](mailto:ada@worldenddisk.com) or on [Instagram](https://instagram.com/worldenddisk).
 {{% /column %}}
