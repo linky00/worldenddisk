@@ -13,7 +13,7 @@
     {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
     <script src="{{ .RelPermalink }}"></script>
     {{- end -}}
-    {{- $opts := dict "targetPath" "js/bundle.js" -}}
+    {{- $opts := dict "targetPath" "js/bundle.js" "sourceMap" (cond hugo.IsProduction "" "external") -}}
     {{- with resources.Get "js/index.js" | js.Build $opts | resources.Minify | fingerprint -}}
     <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
     {{- end -}}
