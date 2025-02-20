@@ -1,16 +1,28 @@
 @use "globals.sass" as *
 
-#sidebar
+.sidebar-wrapper
     grid-area: sidebar
+    background-color: black
+    position: relative
+    overflow: hidden
+
+.sidebar
+    height: 100%
     padding: 1.5em 1em 0
     overflow-x: hidden
     overflow-y: auto
     color: white
-    background-color: black
-    color: white
     font-family: "IBM Plex Mono"
     font-size: $sidebar-font-size
     line-height: 1.3
+    opacity: 1
+    transition: opacity 150ms ease-out
+
+    & > *
+        margin: 10px 0
+
+        &:first-child
+            margin-top: 0
 
     a:link
         color: inherit
@@ -24,36 +36,35 @@
     a:active
         color: $red
 
+    ul
+        margin-bottom: 20px
+
 @media (max-width: $mobile-width)
-    #sidebar
+    .sidebar
         z-index: 2
         padding-bottom: 5em
         font-size: $sidebar-font-size-mobile
 
-#sidebar > *
-    margin: 10px 0 10px 0
+.js-restore-scroll .sidebar
+    visibility: hidden
+    opacity: 0
 
-#sidebar > ul
-    margin-bottom: 20px
-
-#sidebar > .sidebar-header
+.sidebar-header
     font-weight: 600
     font-size: 1.25em
     margin-top: 30px
 
-#sidebar > .sidebar-subheader
+.sidebar-subheader
     margin-left: 10px
     font-style: italic
     font-size: 1.1em
-
-#sidebar > *:first-child
-    margin-top: 0
 
 .sidebar-entry
     font-weight: 300
 
 .sidebar-list-major
     padding-left: 10px
+    
     .sidebar-entry
         margin: 10px 0
         list-style: none

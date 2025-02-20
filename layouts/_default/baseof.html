@@ -10,6 +10,11 @@
     {{- with resources.Get "favicon.png" -}}
       <link rel="icon" href="{{ .RelPermalink }}" />
     {{- end -}}
+    <script>
+      if (localStorage.getItem("sidebarScroll")) {
+        document.documentElement.classList.add('js-restore-scroll');
+      }
+    </script>
     {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
       <script src="{{ .RelPermalink }}"></script>
     {{- end -}}

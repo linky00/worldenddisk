@@ -1,21 +1,29 @@
-<nav id="sidebar">
-    {{- range site.Menus.main -}}
-    <p><a class="sidebar-link" href="{{ .URL }}" {{ if isset .Params "external" }}rel="external" target="_blank"{{ end }}>{{ .Name }}</a></p>
-    {{- end -}}
-    <p class="sidebar-header">Selected Projects</p>
-    <ul class="sidebar-list-major">
-        {{- $selectedPages := where .Site.RegularPages "Params.selected" true -}}
-        {{- range sort $selectedPages "Params.release" "desc" -}}
-        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+<div class="sidebar-wrapper">
+    <nav class="sidebar">
+        {{- range site.Menus.main -}}
+            <p>
+                <a class="sidebar-link" href="{{ .URL }}" {{ if isset .Params "external" }}rel="external" target="_blank"{{ end }}>{{ .Name }}</a>
+            </p>
         {{- end -}}
-    </ul>
-    <p class="sidebar-header">Archive</p>
-    {{- range (where .Site.RegularPages "Section" "projects").GroupByParamDate "release" "2006" "desc" -}}
-    <p class="sidebar-subheader">{{ .Key }}</p>
-    <ul class="sidebar-list-minor">
-        {{- range .Pages -}}
-        <li class="sidebar-entry"><a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        <p class="sidebar-header">Selected Projects</p>
+        <ul class="sidebar-list-major">
+            {{- $selectedPages := where .Site.RegularPages "Params.selected" true -}}
+            {{- range sort $selectedPages "Params.release" "desc" -}}
+                <li class="sidebar-entry">
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                </li>
+            {{- end -}}
+        </ul>
+        <p class="sidebar-header">Archive</p>
+        {{- range (where .Site.RegularPages "Section" "projects").GroupByParamDate "release" "2006" "desc" -}}
+            <p class="sidebar-subheader">{{ .Key }}</p>
+            <ul class="sidebar-list-minor">
+                {{- range .Pages -}}
+                    <li class="sidebar-entry">
+                        <a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                    </li>
+                {{- end -}}
+            </ul>
         {{- end -}}
-    </ul>
-    {{- end -}}
-</nav>
+    </nav>
+</div>
