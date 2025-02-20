@@ -26,7 +26,7 @@ Contact by [email](mailto:ada@worldenddisk.com) or on [Instagram](https://instag
 {{% /column %}}
 
 {{% column %}}
-{{< img src="me.jpg" >}}
+{{< img src="me.png" >}}
 {{% /column %}}
 
 {{< /column >}}
