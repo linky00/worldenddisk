@@ -3,16 +3,16 @@
     <p><a class="sidebar-link" href="{{ .URL }}">{{ .Name }}</a></p>
     {{- end -}}
     <p class="sidebar-header">Selected Projects</p>
-    <ul class="sidebar-list">
+    <ul class="sidebar-list-major">
         {{- $selectedPages := where .Site.RegularPages "Params.selected" true -}}
         {{- range sort $selectedPages "Params.release" "desc" -}}
-        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} ({{ .Params.year }})</a></li>
+        <li class="sidebar-entry"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{- end -}}
     </ul>
     <p class="sidebar-header">Archive</p>
     {{- range (where .Site.RegularPages "Section" "projects").GroupByParamDate "release" "2006" "desc" -}}
     <p class="sidebar-subheader">{{ .Key }}</p>
-    <ul class="sidebar-list">
+    <ul class="sidebar-list-minor">
         {{- range .Pages -}}
         <li class="sidebar-entry"><a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{- end -}}
