@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {{- $opts := dict "transpiler" "dartsass" "targetPath" "style.css" -}}
     {{- with resources.Get "sass/style.sass" | toCSS $opts | minify -}}
-    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
     {{- end -}}
     {{- with resources.Get "favicon.png" -}}
-    <link rel="icon" href="{{ .RelPermalink }}" />
+      <link rel="icon" href="{{ .RelPermalink }}" />
     {{- end -}}
     {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
-    <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .RelPermalink }}"></script>
     {{- end -}}
     {{- $opts := dict "targetPath" "js/bundle.js" "sourceMap" (cond hugo.IsProduction "" "external") -}}
     {{- with resources.Get "js/index.js" | js.Build $opts | resources.Minify | fingerprint -}}
-    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
     {{- end -}}
     <title>{{ block "title" . }}
       {{ .Site.Title }}
