@@ -7,6 +7,14 @@ date = 2024-11-16T01:14:01Z
 
 ## Selected Exhibitions
 
+### 2025
+
+*Ground Works*, Everton Community Gardens, Liverpool
+
+*Riposte - 'Iconic Duos'*, The Cause, London
+
+*Side/Step x Voidspace*, 102 Upper Street, London
+
 ### 2024
 
 *Granny Ludski's Wild Gardening*, Rio Cinema, London
