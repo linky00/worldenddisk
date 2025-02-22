@@ -1,24 +1,24 @@
 {{- define "title" -}}
-{{ .Title }} | {{ .Site.Title }}
+    {{ .Title }} | {{ .Site.Title }}
 {{- end -}}
 {{- define "main" -}}
-{{- $heroMode := isset .Params "hero" }}
-{{- if $heroMode -}}
-{{- partial "hero-image.html" . }}
-{{- end -}}
-<article id="main">
+    {{- $heroMode := isset .Params "hero" }}
     {{- if $heroMode -}}
-    <div id="hero-window">
-        {{- partial "content-title.html" . }}
-    </div>
+        {{- partial "hero-image.html" . }}
     {{- end -}}
-    <div id="content-background" {{- if $heroMode -}}class="with-hero"{{- end -}}>
-        <div id="content">
-            {{- if not $heroMode -}}
-            {{- partial "content-title.html" . -}}
-            {{- end -}}
-            {{ .Content }}
+    <article id="main">
+        {{- if $heroMode -}}
+        <div id="hero-window">
+            {{- partial "content-title.html" . }}
         </div>
-    </div>
-</article>
+        {{- end -}}
+        <div id="content-background" {{- if $heroMode -}}class="with-hero"{{- end -}}>
+            <div id="content">
+                {{- if not $heroMode -}}
+                    {{- partial "content-title.html" . -}}
+                {{- end -}}
+                {{ .Content }}
+            </div>
+        </div>
+    </article>
 {{- end -}}

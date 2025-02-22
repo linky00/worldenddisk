@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {{- $opts := dict "transpiler" "dartsass" "targetPath" "style.css" -}}
-    {{- with resources.Get "sass/style.sass" | toCSS $opts | minify -}}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" />
-    {{- end -}}
-    {{- with resources.Get "favicon.png" -}}
-      <link rel="icon" href="{{ .RelPermalink }}" />
-    {{- end -}}
-    <script>
-      if (localStorage.getItem("sidebarScroll")) {
-        document.documentElement.classList.add('js-restore-scroll');
-      }
-    </script>
-    {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
-      <script src="{{ .RelPermalink }}"></script>
-    {{- end -}}
-    {{- $opts := dict "targetPath" "js/bundle.js" "sourceMap" (cond hugo.IsProduction "" "external") -}}
-    {{- with resources.Get "js/index.js" | js.Build $opts | resources.Minify | fingerprint -}}
-      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
-    {{- end -}}
-    <title>{{ block "title" . }}
-      {{ .Site.Title }}
-    {{ end }}</title>
-  </head>
-  <body>
-    <div id="base-wrapper">
-      <div id="base-grid">
-        {{ partialCached "site-title.html" . }}
-        <div id="spacing-corner"></div>
-        {{ partialCached "sidebar.html" . }}
-        {{ block "main" . }}
-        {{ end }}
-        {{ partialCached "ticker.html" . }}
-      </div>
-    </div>
-  </body>
-</html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {{- $opts := dict "transpiler" "dartsass" "targetPath" "style.css" -}}
+        {{- with resources.Get "sass/style.sass" | toCSS $opts | minify -}}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" />
+        {{- end -}}
+        {{- with resources.Get "favicon.png" -}}
+            <link rel="icon" href="{{ .RelPermalink }}" />
+        {{- end -}}
+        <script>
+            if (localStorage.getItem("sidebarScroll")) {
+                document.documentElement.classList.add('js-restore-scroll');
+            }
+        </script>
+        {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
+            <script src="{{ .RelPermalink }}"></script>
+        {{- end -}}
+        {{- $opts := dict "targetPath" "js/bundle.js" "sourceMap" (cond hugo.IsProduction "" "external") -}}
+        {{- with resources.Get "js/index.js" | js.Build $opts | resources.Minify | fingerprint -}}
+            <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+        {{- end -}}
+        <title>{{ block "title" . }}
+            {{ .Site.Title }}
+            {{ end }}</title>
+        </head>
+        <body>
+            <div id="base-wrapper">
+                <div id="base-grid">
+                    {{ partialCached "site-title.html" . }}
+                    <div id="spacing-corner"></div>
+                    {{ partialCached "sidebar.html" . }}
+                    {{ block "main" . }}
+                    {{ end }}
+                    {{ partialCached "ticker.html" . }}
+                </div>
+            </div>
+        </body>
+    </html>

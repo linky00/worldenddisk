@@ -1,12 +1,12 @@
 {{- $text := "" -}}
 {{- with .Site.Data.commits -}}
-{{- range (shuffle .) -}}
-{{- $commit := printf "[%s] %s | " .hash .message -}}
-{{- $commit = replace $commit "\n" "" -}}
-{{- $text = printf "%s%s" $text $commit }}
-{{- end -}}
-<div id="ticker">
-    <p class="ticker-text">{{ $text }}</p>
-    <p class="ticker-text">{{ $text }}</p>
-</div>
+    {{- range (shuffle .) -}}
+        {{- $commit := printf "[%s] %s | " .hash .message -}}
+        {{- $commit = replace $commit "\n" "" -}}
+        {{- $text = printf "%s%s" $text $commit }}
+    {{- end -}}
+    <div id="ticker">
+        <p class="ticker-text">{{ $text }}</p>
+        <p class="ticker-text">{{ $text }}</p>
+    </div>
 {{- end -}}
