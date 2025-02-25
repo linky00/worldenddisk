@@ -24,6 +24,7 @@ date = 2024-11-16T01:14:01Z
 
 *Shuffle*, North Docks, Liverpool \
 *Fantasy*, Bridewell Studios and Gallery, Liverpool \
+*20:20 Print Exchange*, Hot Bed Press, Salford \
 *The Fisherman*, Bridewell Studios and Gallery, Liverpool
 
 ### 2022
