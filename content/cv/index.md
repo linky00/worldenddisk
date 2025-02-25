@@ -43,3 +43,5 @@ date = 2024-11-16T01:14:01Z
 
 BA Fine Art at Liverpool John Moores University \
 Foundation Diploma in Art, Design & Media Practice at Kingston University
+
+{{< img src=me.png >}}
