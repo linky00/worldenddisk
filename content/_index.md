@@ -23,6 +23,8 @@ Selected works include:
 
 She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group show celebrating the ambitious and the strange.
 
+Ada's work has been featured in publications such as [The White Pube](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/) and [Art Monthly](https://www.proquest.com/openview/e786f177b5a329651129e7b927254968).
+
 Contact by [email](mailto:ada@worldenddisk.com) or on [Instagram](https://instagram.com/worldenddisk).
 {{% /column %}}
 
