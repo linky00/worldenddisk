@@ -1,0 +1,9 @@
+{{- $page := . -}}
+{{- $redFilter := images.Colorize 4 70 100 -}}
+{{- with cond (isset .Params "hero") .Params.hero .Params.noHero -}}
+    {{- with $page.Resources.Get . -}}
+        {{- with .Fit "512x512 png" | images.Filter $redFilter -}}
+            <img class="sidebar-entry-image" src="{{ .RelPermalink }}" fetchPriority="low" loading="lazy">
+        {{- end -}}
+    {{- end -}}
+{{- end -}}

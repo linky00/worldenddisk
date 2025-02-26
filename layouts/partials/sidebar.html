@@ -11,6 +11,7 @@
             {{- range sort $selectedPages "Params.release" "desc" -}}
                 <li class="sidebar-entry">
                     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                    {{- partial "sidebar-entry-image.html" . -}}
                 </li>
             {{- end -}}
         </ul>
@@ -20,7 +21,8 @@
             <ul class="sidebar-list-minor">
                 {{- range .Pages -}}
                     <li class="sidebar-entry">
-                        <a class="sidebar-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        {{- partial "sidebar-entry-image.html" . -}}
                     </li>
                 {{- end -}}
             </ul>

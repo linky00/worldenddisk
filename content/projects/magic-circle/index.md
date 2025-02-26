@@ -5,6 +5,7 @@ date = 2025-02-20T11:11:40Z
     release = 2020-12-31
     titleFormat = ['Magic Circle']
     year = '2020'
+    noHero = 'screenshot.png'
 +++
 
 A short story about frames of reference.

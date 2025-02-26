@@ -5,6 +5,7 @@ date = 2024-07-15T22:13:03+01:00
     release = 2023-11-21
     titleFormat = ['Assorted Twine', 'Experiments']
     year = '2022-23'
+    noHero = 'screenshot.png'
 +++
 
 ## *Holding* (2022)

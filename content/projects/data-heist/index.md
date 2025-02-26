@@ -5,6 +5,7 @@ date = 2024-11-16T02:58:06Z
     release = 2022-02-01
     titleFormat = ['DATA HEIST']
     year = '2022'
+    noHero = 'photo.jpg'
 +++
 
 {{< img src=photo.jpg >}}
