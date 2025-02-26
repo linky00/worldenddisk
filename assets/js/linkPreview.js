@@ -7,6 +7,7 @@ document.querySelectorAll("a[data-link-preview-src]").forEach((link) => {
   });
 
   link.addEventListener("mouseleave", () => {
+    linkPreviewImg.src = "";
     linkPreviewImg.style.visibility = "hidden";
   });
 });
