@@ -5,7 +5,7 @@
 {{- with $heroParam -}}
     {{- with $page.Resources.Get . -}}
         {{- with .Fit "512x512 png" | images.Filter $redFilter -}}
-            {{- $attr = printf "data-link-preview-image=\"%s\"" .RelPermalink -}}
+            {{- $attr = printf "data-link-preview-src=\"%s\"" .RelPermalink -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
