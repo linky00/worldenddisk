@@ -15,9 +15,6 @@
                 document.documentElement.classList.add('js-restore-scroll');
             }
         </script>
-        {{- with resources.Get "js/jquery-3.7.1.min.js" -}}
-            <script src="{{ .RelPermalink }}"></script>
-        {{- end -}}
         {{- $opts := dict
             "minify" hugo.IsProduction
             "targetPath" "js/bundle.js"
