@@ -20,7 +20,7 @@
             "targetPath" "js/bundle.js"
             "sourceMap" (cond hugo.IsProduction "" "external")
         -}}
-        {{- with resources.Get "js/index.js" | js.Build $opts | fingerprint -}}
+        {{- with resources.Get "js/_index.js" | js.Build $opts | fingerprint -}}
             <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
         {{- end -}}
         <title>{{ block "title" . }}
