@@ -3,7 +3,7 @@
 {{- with cond (isset .Params "hero") .Params.hero .Params.noHero -}}
     {{- with $page.Resources.Get . -}}
         {{- with .Fit "512x512 png" | images.Filter $redFilter -}}
-            <img class="sidebar-entry-image" src="{{ .RelPermalink }}" fetchPriority="low" loading="lazy">
+            {{- return (printf "data-link-preview-image=\"%s\"" .RelPermalink) -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}

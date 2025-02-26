@@ -1,4 +1,5 @@
-import "./hero_scrolling";
-import "./mobile_sidebar";
+import "./heroScrolling";
+import "./mobileSidebar";
 import "./ticker";
-import "./sidebar_scroll";
+import "./sidebarScroll";
+import "./linkPreview";
