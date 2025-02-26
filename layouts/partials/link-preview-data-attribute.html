@@ -1,9 +1,12 @@
 {{- $page := . -}}
 {{- $redFilter := images.Colorize 4 70 100 -}}
-{{- with cond (isset .Params "hero") .Params.hero .Params.noHero -}}
+{{- $heroParam := cond (isset .Params "hero") .Params.hero .Params.noHero -}}
+{{- $attr := "" -}}
+{{- with $heroParam -}}
     {{- with $page.Resources.Get . -}}
         {{- with .Fit "512x512 png" | images.Filter $redFilter -}}
-            {{- return (printf "data-link-preview-image=\"%s\"" .RelPermalink) -}}
+            {{- $attr = printf "data-link-preview-image=\"%s\"" .RelPermalink -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
+{{- return $attr -}}
