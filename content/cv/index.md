@@ -9,6 +9,7 @@ date = 2024-11-16T01:14:01Z
 
 ### 2025
 
+*Voidspace Live 2025*, Theatre Deli, London \
 *Ground Works*, Everton Community Gardens, Liverpool \
 *Riposte - 'Iconic Duos'*, The Cause, London \
 *Side/Step x Voidspace*, 102 Upper Street, London
