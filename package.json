@@ -1,0 +1,8 @@
+{
+  "name": "worldenddisk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-git-json": "node scripts/generateGitJson.js"
+  }
+}
