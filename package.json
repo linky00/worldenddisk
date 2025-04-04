@@ -4,5 +4,8 @@
   "type": "module",
   "scripts": {
     "generate-git-json": "node scripts/generateGitJson.js"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.30.1"
   }
 }
