@@ -1,0 +1,6 @@
+public/
+resources/
+.hugo_build.lock
+/assets/jsconfig.json
+node_modules/
+data/commits.json
