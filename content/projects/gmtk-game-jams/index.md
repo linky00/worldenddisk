@@ -13,7 +13,7 @@ draft = true
 
 {{% overview-text %}}
 
-When I was younger, I took part in the GMTK Game Jam for three years running along with Tommy Birt and Charlie Seddan.
+When I was younger, I took part in the GMTK Game Jam for three years running along with Tommy Birt and Charlie Seddon.
 
 {{% /overview-text %}}
 
