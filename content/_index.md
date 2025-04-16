@@ -11,7 +11,7 @@ date = 2024-03-26T23:33:38Z
 {{< columns >}}
 
 {{% column %}}
-*Ada Null* is a multidisciplinary artist and game maker. Her work tells stories of broken pasts, uncertain futures, and the ghosts who never left. She invites you to sit with your fellow strangers, and see how it ends together.
+*Ada Null* tells stories of broken pasts, uncertain futures, and the ghosts who never left. A multidisciplinary artist and game maker working in London, she invites you to sit with your fellow strangers and see how it all ends, together.
 
 Selected works include:
 - {{< internal-link "projects/our-boat-the-thread" >}}, a motorboat journey into the underworld
