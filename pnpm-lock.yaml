@@ -11,6 +11,9 @@ importers:
       isomorphic-git:
         specifier: ^1.30.1
         version: 1.30.3
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
 
 packages:
 
@@ -66,6 +69,11 @@ packages:
   pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
+
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   readable-stream@3.6.2:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
@@ -143,6 +151,8 @@ snapshots:
   path-browserify@1.0.1: {}
 
   pify@4.0.1: {}
+
+  prettier@3.5.3: {}
 
   readable-stream@3.6.2:
     dependencies:
