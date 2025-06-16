@@ -4,7 +4,7 @@ WORKDIR /src
 
 COPY . .
 
-RUN npm ci && pnpm run generate-git-json
+RUN npm ci && npm run generate-git-json
 
 FROM hugomods/hugo:exts AS hugo-builder
 
