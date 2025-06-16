@@ -43,7 +43,7 @@ Depending on the path taken, the game concludes in one of three wildly divergent
 
 The game was produced in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/). He produced the wooden tiller controller and the incredible soundscape.
 
-The game has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), and most recently [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/). 
+The game has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), and most recently [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/).
 
 {{< gallery >}}
 {{< img src=limits.jpg >}}
@@ -53,9 +53,9 @@ The game has been installed at {{< internal-link "projects/limits-and-demonstrat
 {{< columns >}}
 
 {{% column %}}
-*our boat, the Thread* was written about by Gabrielle de la Puente for The White Pube. From the article:
+_our boat, the Thread_ was written about by Gabrielle de la Puente for The White Pube. From the article:
 
-*"The boat chugged over lakes, through a half-sunken church, into dark sewers and glowing caves. At one point, the player had to keep the boat straight across a tense waterfall bridge that stretched across blank space with no boundaries. We arrived into a starry globe where a translucent ghost standing next to a bonfire was waiting on the shores to meet us. I got completely pulled into the whole thing. I couldn’t really believe that this was in a BA degree show."*
+_"The boat chugged over lakes, through a half-sunken church, into dark sewers and glowing caves. At one point, the player had to keep the boat straight across a tense waterfall bridge that stretched across blank space with no boundaries. We arrived into a starry globe where a translucent ghost standing next to a bonfire was waiting on the shores to meet us. I got completely pulled into the whole thing. I couldn’t really believe that this was in a BA degree show."_
 
 [Read the article here.](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/) (It's very beautiful.)
 {{% /column %}}
@@ -73,7 +73,7 @@ An adaptation of the game played with a mouse is available on itch.io:
 {{< columns >}}
 
 {{% column %}}
-A spoken recording of the 'Flowers' path of the game was created for Ashley Holmes's [*... and other possibilities*](https://radio.montezpress.com/#/show/3389), a collection of audio works broadcast by Montez Press Radio.
+A spoken recording of the 'Flowers' path of the game was created for Ashley Holmes's [_... and other possibilities_](https://radio.montezpress.com/#/show/3389), a collection of audio works broadcast by Montez Press Radio.
 
 Listen:
 
@@ -86,4 +86,3 @@ Listen:
 {{% /column %}}
 
 {{< /columns>}}
-

@@ -13,7 +13,7 @@ date = 2024-07-15T22:53:15+01:00
 {{% overview-text %}}
 Endless simulation of a party taking place on stage in hell. Guests must attempt to impress each other. Upon failure, they will beg the cube for new conversation topics. Wine is unlimited.
 
-Exhibited in *Knock Knock* at the Bridewell Gallery.
+Exhibited in _Knock Knock_ at the Bridewell Gallery.
 {{% /overview-text %}}
 
 {{< overview-images >}}

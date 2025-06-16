@@ -28,11 +28,11 @@ The game was playtested once, and has since never been repeated. I would like to
 
 After writing their own descriptions of the city on index cards, the players each select a stationery item. The items assign them a role, whose burden they must complete as the city burns around them:
 
-- An **artist**, who uses the *scalpel* to cut phrases from the players' writing, and composes them into a poem
-- A **seeker**, who races to recover artifacts illustrated by the players into an *envelope* before they are destroyed by the fire
-- A **statistician**, who must measure and record onto their *clipboard* increasingly many lexical statistics about the city
-- A **killer**, who hunts the other players and drips *red ink* footsteps onto the index cards
-- And **The Great Fire** itself, who rips up artifacts and with a *black marker pen* destroys the descriptions of the city 
+- An **artist**, who uses the _scalpel_ to cut phrases from the players' writing, and composes them into a poem
+- A **seeker**, who races to recover artifacts illustrated by the players into an _envelope_ before they are destroyed by the fire
+- A **statistician**, who must measure and record onto their _clipboard_ increasingly many lexical statistics about the city
+- A **killer**, who hunts the other players and drips _red ink_ footsteps onto the index cards
+- And **The Great Fire** itself, who rips up artifacts and with a _black marker pen_ destroys the descriptions of the city
 
 {{< gallery >}}
 

@@ -11,7 +11,7 @@ date = 2024-07-15T23:05:48+01:00
 {{< overview >}}
 
 {{% overview-text %}}
-Small space based on *Piazza d'Italia* (1913) by Giorgio de Chirico.
+Small space based on _Piazza d'Italia_ (1913) by Giorgio de Chirico.
 
 {{< itchio 858126 >}}
 {{% /overview-text %}}

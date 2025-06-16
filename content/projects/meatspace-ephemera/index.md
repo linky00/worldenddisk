@@ -29,7 +29,7 @@ An online game about a dying server. Players explore the memories immortalised b
 {{< columns >}}
 
 {{% column %}}
-*Meatspace Ephemera* begins with a player receiving an in-universe invatation to the game. The unique 'server ID' corresponds to a unique instance of the game.
+_Meatspace Ephemera_ begins with a player receiving an in-universe invatation to the game. The unique 'server ID' corresponds to a unique instance of the game.
 {{% /column %}}
 
 {{% column %}}
@@ -40,7 +40,7 @@ An online game about a dying server. Players explore the memories immortalised b
 
 Upon connecting, the player finds themself in a world of corrupting memories. NetMemo's failed business would take client's text descriptions of places they had lost, such as childhood homes and faraway countries, and attempt to render them in three dimensions.
 
-The core mechanic of *Meatspace Ephemera* is the 'gates' that require a minimum number of players to traverse. The initial player must share their code with others in order to see more of the world; first two, then four, and finally eight players exploring the world at once, seeking hidden spaces together.
+The core mechanic of _Meatspace Ephemera_ is the 'gates' that require a minimum number of players to traverse. The initial player must share their code with others in order to see more of the world; first two, then four, and finally eight players exploring the world at once, seeking hidden spaces together.
 
 {{< gallery >}}
 {{< img src=screenshot.png >}}

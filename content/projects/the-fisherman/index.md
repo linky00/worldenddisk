@@ -41,4 +41,3 @@ A joint exhibition and book launch was held at The Bridewell Studios and Gallery
 Play _The Fisherman_:
 
 {{< itchio 1926120 >}}
-

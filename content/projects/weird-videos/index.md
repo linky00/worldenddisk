@@ -32,7 +32,7 @@ I really enjoyed this one. Thank you to [Ren Yeates Black](https://www.instagram
 
 {{< youtube F81trkYVkos >}}
 
-##  me looking for who asked 
+## me looking for who asked
 
 For two weeks, every time I had something I wanted to tweet, I wrote it down on an index card instead. After that I went under a bridge and burned them all.
 

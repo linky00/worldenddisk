@@ -27,4 +27,4 @@ Featuring illustrations by [Martha Tromans](https://www.instagram.com/marthatrom
 
 There are several moments in the game that allow you to directly interact with your fellow players, such as rolling back a rock together or making a certain path inaccessible to others. Most of the time, however, you must remain silent, except for speaking aloud echoes of your current location.
 
-*(hero image photographed by [Ellie Morris](https://www.instagram.com/star.artt2/))*
+_(hero image photographed by [Ellie Morris](https://www.instagram.com/star.artt2/))_

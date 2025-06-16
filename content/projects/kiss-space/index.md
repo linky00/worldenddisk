@@ -12,7 +12,7 @@ date = 2024-07-04T13:26:03+01:00
 {{< overview >}}
 
 {{% overview-text %}}
-Twelve strangers are leaving Earth in a hurry. If they're to reach their destination planet and not be left stranded in space, they must become close enough to work together, be it through friendship, sex, or romance. *Kiss Space* is a narrative simulation, in which we hear the randomly generated story from the perspective of one of the twelve randomly generated crewmates.
+Twelve strangers are leaving Earth in a hurry. If they're to reach their destination planet and not be left stranded in space, they must become close enough to work together, be it through friendship, sex, or romance. _Kiss Space_ is a narrative simulation, in which we hear the randomly generated story from the perspective of one of the twelve randomly generated crewmates.
 {{% /overview-text %}}
 
 {{< overview-images >}}
