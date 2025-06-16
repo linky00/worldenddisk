@@ -6,15 +6,14 @@ date = 2024-06-24T12:23:42+01:00
     titleFormat = ['The Fisherman']
     year = '2023'
     hero = 'screenshot-1.png'
-    selected = true
 +++
 
 {{< overview >}}
 
 {{% overview-text %}}
-Videogame adaptation of experimental poetry collection *The Fisherman* (2023) by [El Rose](https://www.instagram.com/el.rose.official). Explore an exhibition of elusive descriptions before encountering their subject.
+Videogame adaptation of experimental poetry collection _The Fisherman_ (2023) by [El Rose](https://www.instagram.com/el.rose.official). Explore an exhibition of elusive descriptions before encountering their subject.
 
-*Can you see it? Can you see him?*
+_Can you see it? Can you see him?_
 {{% /overview-text %}}
 
 {{< overview-images >}}
@@ -29,7 +28,7 @@ Videogame adaptation of experimental poetry collection *The Fisherman* (2023) by
 {{< img src=screenshot-5.png >}}
 {{< /gallery >}}
 
-A joint exhibition and book launch was held at The Bridewell Studios and Gallery for *The Fisherman* videogame and poetry collection. The walls were covered in the original poems, and the fireplace lit.
+A joint exhibition and book launch was held at The Bridewell Studios and Gallery for _The Fisherman_ videogame and poetry collection. The walls were covered in the original poems, and the fireplace lit.
 
 {{< img src=exhibition-1.jpg >}}
 
@@ -39,6 +38,7 @@ A joint exhibition and book launch was held at The Bridewell Studios and Gallery
 {{< img src=exhibition-2.jpg >}}
 {{< /gallery >}}
 
-Play *The Fisherman*:
+Play _The Fisherman_:
 
 {{< itchio 1926120 >}}
+
