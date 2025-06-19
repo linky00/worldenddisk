@@ -16,10 +16,10 @@ _Ada Null_ tells stories of broken pasts, uncertain futures, and the ghosts who 
 Selected works include:
 
 - {{< internal-link "projects/our-boat-the-thread" >}}, a motorboat journey into the underworld
+- {{< internal-link "projects/kiss-garden" >}}, a narrative simulation of dyke sex and malaise
+- {{< internal-link "projects/records-of-babel" >}}, a fractured story of a failed people
 - {{< internal-link "projects/cave">}}, a multiplayer adventure game dealt in cards
 - {{< internal-link "projects/meatspace-ephemera" >}}, an online game of dying memories
-- {{< internal-link "projects/kiss-space" >}}, a sci-fi narrative simulation of friendship and romance
-- {{< internal-link "projects/kiss-garden" >}}, a grounded narrative simulation of dyke sex and malaise
 
 She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group show celebrating the ambitious and the strange.
 
