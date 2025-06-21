@@ -43,7 +43,7 @@ Depending on the path taken, the game concludes in one of three wildly divergent
 
 The game was produced in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/). He produced the wooden tiller controller and the incredible soundscape.
 
-The game has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), and most recently [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/).
+_our boat, the Thread_ has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/), and [Voidspace Live 2025](https://voidspacezine.com/).
 
 {{< gallery >}}
 {{< img src=limits.jpg >}}
@@ -53,6 +53,9 @@ The game has been installed at {{< internal-link "projects/limits-and-demonstrat
 {{< columns >}}
 
 {{% column %}}
+
+{{< img src=voidspace.png >}}
+
 _our boat, the Thread_ was written about by Gabrielle de la Puente for The White Pube. From the article:
 
 _"The boat chugged over lakes, through a half-sunken church, into dark sewers and glowing caves. At one point, the player had to keep the boat straight across a tense waterfall bridge that stretched across blank space with no boundaries. We arrived into a starry globe where a translucent ghost standing next to a bonfire was waiting on the shores to meet us. I got completely pulled into the whole thing. I couldn’t really believe that this was in a BA degree show."_
