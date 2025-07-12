@@ -9,6 +9,7 @@ date = 2024-11-16T01:14:01Z
 
 ### 2025
 
+_Riposte - 'Clothes Swap'_, The Cause, London \
 _Voidspace Live 2025_, Theatre Deli, London \
 _Records of Babel_, Royal Holloway Community Garden, Egham \
 _Riposte - 'Cryposte'_, The Cause, London \
