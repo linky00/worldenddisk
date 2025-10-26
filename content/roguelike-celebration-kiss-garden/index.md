@@ -5,6 +5,26 @@ date = 2025-10-23T14:52:57+01:00
     titleFormat = ["'Dyke sex and", "ennui' samples"]
 +++
 
-hello pervert
+## Full
 
-(samples to come!)
+{{< img src=full.png >}}
+
+## Breakup
+
+{{< img src=breakup.png >}}
+
+## Sex
+
+{{< img src=sex.png >}}
+
+## Garden
+
+{{< img src=garden.png >}}
+
+## Relationships
+
+{{< img src=relationships.png >}}
+
+## Lyricism
+
+{{< img src=lyricism.png >}}
