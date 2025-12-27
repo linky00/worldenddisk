@@ -6,6 +6,7 @@ date = 2025-05-27T16:51:37+01:00
     titleFormat = ['Experimenting', 'With Knives']
     year = '2025'
     hero = 'choice.jpg'
+    selected = true
 +++
 
 {{< overview >}}
