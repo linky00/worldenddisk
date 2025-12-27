@@ -20,12 +20,19 @@ Orla needs animation reference footage for her game. She casts Eden, a quiet gir
 
 {{< overview-images >}}
 
-{{< img src="voting.png" >}}
+{{< img src="logo.png" >}}
 
 {{< /overview-images >}}
 
 {{< /overview >}}
 
-Devised and performed live for _Side/Step x Voidspace_. An online version is in development.
+{{< itchio 4151817 >}}
 
+{{< img src="screenshot.png" >}}
+
+Devised and performed live for _Side/Step x Voidspace_ as _Eden Becoming_.
+
+{{< gallery >}}
+{{< img src="voting.png" >}}
 {{< img src="crowd.jpg" >}}
+{{< /gallery >}}
