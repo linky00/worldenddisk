@@ -14,27 +14,33 @@ disableKinds = ['section', 'taxonomy', 'term']
     [[menus.main]]
         name = "About"
         pageRef = "/"
+        weight = 1
     [[menus.main]]
         name = "CV"
         pageRef = "cv"
+        weight = 2
     [[menus.main]]
         name = "Bluesky"
         url = "https://bsky.app/profile/worldenddisk.com"
+        weight = 3
         [menus.main.params]
             external = true
     [[menus.main]]
         name = "Instagram"
         url = "https://www.instagram.com/worldenddisk/"
+        weight = 4
         [menus.main.params]
             external = true
     [[menus.main]]
         name = "Email"
         url = "mailto:ada@worldenddisk.com"
+        weight = 5
         [menus.main.params]
             external = true
     [[menus.main]]
         name = "Site source"
         url = "https://github.com/linky00/worldenddisk"
+        weight = 6
         [menus.main.params]
             external = true
 
