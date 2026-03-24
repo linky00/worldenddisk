@@ -18,6 +18,11 @@ disableKinds = ['section', 'taxonomy', 'term']
         name = "CV"
         pageRef = "cv"
     [[menus.main]]
+        name = "Bluesky"
+        url = "https://bsky.app/profile/worldenddisk.com"
+        [menus.main.params]
+            external = true
+    [[menus.main]]
         name = "Instagram"
         url = "https://www.instagram.com/worldenddisk/"
         [menus.main.params]
