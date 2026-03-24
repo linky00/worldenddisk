@@ -5,7 +5,12 @@ date = 2024-11-16T01:14:01Z
     titleFormat = ['CV']
 +++
 
-## Selected Exhibitions
+## Exhibitions
+
+### 2026
+
+_Strange Play - London Games Week_, Theatre Deli, London \
+_Car Boot Casino_, V&A, London
 
 ### 2025
 
@@ -39,7 +44,11 @@ _Knock Knock_, Bridewell Studios and Gallery, Liverpool
 
 _Brewery Show_, The Park Brewery, London
 
-## Selected Press
+## Publications
+
+_Hail to the Great City_ published in _The Zium Digest_
+
+## Press
 
 [_The Exhibition as Performance_](https://www.proquest.com/openview/e786f177b5a329651129e7b927254968), Sarah James on {{< internal-link "projects/limits-and-demonstrations" >}}, Art Monthly, September 2024 \
 [_the LJMU degree show_](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/), The White Pube on {{< internal-link "projects/our-boat-the-thread" >}}, June 2024
