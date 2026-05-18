@@ -7,5 +7,7 @@
         "parser": "astro"
       }
     }
-  ]
+  ],
+  "tabWidth": 2,
+  "astroAllowShorthand": false
 }
