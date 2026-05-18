@@ -9,40 +9,42 @@ date = 2024-11-16T01:14:01Z
 
 ### 2026
 
-_Strange Play - London Games Week_, Theatre Deli, London \
-_Car Boot Casino_, V&A, London
+{{< internal-link "projects/cave" >}} + {{< internal-link "projects/in-that-great-fire" >}} @ _Voidspace Live 2026_, Theatre Deli, London \
+{{< internal-link "projects/cave" >}} @ _Car Boot Casino - A MAZE. / Berlin 2026_, Silent Green, Berlin \
+{{< internal-link "projects/our-boat-the-thread" >}} + {{< internal-link "projects/kiss-garden" >}} @ _Strange Play - London Games Week_, Theatre Deli, London \
+{{< internal-link "projects/cave" >}} @ _Car Boot Casino - Friday Late: Player/Performer_, V&A, London
 
 ### 2025
 
-_Riposte - 'Clothes Swap'_, The Cause, London \
-_Voidspace Live 2025_, Theatre Deli, London \
-_Records of Babel_, Royal Holloway Community Garden, Egham \
-_Riposte - 'Cryposte'_, The Cause, London \
-_Ground Works_, Everton Community Gardens, Liverpool \
-_Riposte - 'Iconic Duos'_, The Cause, London \
-_Side/Step x Voidspace_, 102 Upper Street, London
+{{< internal-link "projects/records-of-babel" >}} @ _Riposte - 'Clothes Swap'_, The Cause, London \
+{{< internal-link "projects/our-boat-the-thread" >}} @ _Voidspace Live 2025_, Theatre Deli, London \
+{{< internal-link "projects/records-of-babel" >}} @ _Records of Babel_, Royal Holloway Community Garden, Egham \
+{{< internal-link "projects/lollipop-market" >}} @ _Riposte - 'Cryposte'_, The Cause, London \
+{{< internal-link "projects/records-of-babel" >}} @ _Ground Works_, Everton Community Gardens, Liverpool \
+{{< internal-link "projects/kiss-garden" >}} @ _Riposte - 'Iconic Duos'_, The Cause, London \
+{{< internal-link "projects/experimenting-with-knives" >}} @ _Side/Step x Voidspace_, 102 Upper Street, London
 
 ### 2024
 
-_Granny Ludski's Wild Gardening_, Rio Cinema, London \
-_Occupy_, IDEAS WORK, Liverpool \
-_Shuffle_, Tobacco Warehouse, Liverpool \
-_Limits & Demonstrations_, Bridewell Studios and Gallery, Liverpool
+{{< internal-link "projects/kiss-garden" >}} @ _Granny Ludski's Wild Gardening_, Rio Cinema, London \
+{{< internal-link "projects/in-that-great-fire" >}} @ _Occupy_, IDEAS WORK, Liverpool \
+{{< internal-link "projects/our-boat-the-thread" >}} @ _Shuffle_, Tobacco Warehouse, Liverpool \
+{{< internal-link "projects/our-boat-the-thread" >}} + Curation/Production @ _Limits & Demonstrations_, Bridewell Studios and Gallery, Liverpool
 
 ### 2023
 
-_Shuffle_, North Docks, Liverpool \
-_Fantasy_, Bridewell Studios and Gallery, Liverpool \
-_20:20 Print Exchange_, Hot Bed Press, Salford \
-_The Fisherman_, Bridewell Studios and Gallery, Liverpool
+{{< internal-link "projects/richmond-castle" >}} @ _Shuffle_, North Docks, Liverpool \
+{{< internal-link "projects/kiss-space" >}} @ _Fantasy_, Bridewell Studios and Gallery, Liverpool \
+{{< internal-link "projects/we-searched-its-remains-for-the-heart" >}} @ _20:20 Print Exchange_, Hot Bed Press, Salford \
+{{< internal-link "projects/the-fisherman" >}} @ _The Fisherman_, Bridewell Studios and Gallery, Liverpool
 
 ### 2022
 
-_Knock Knock_, Bridewell Studios and Gallery, Liverpool
+{{< internal-link "projects/sophisticated-adult-party" >}} @ _Knock Knock_, Bridewell Studios and Gallery, Liverpool
 
 ### 2021
 
-_Brewery Show_, The Park Brewery, London
+{{< internal-link "projects/bonfire" >}} @ _Brewery Show_, The Park Brewery, London
 
 ## Publications
 
