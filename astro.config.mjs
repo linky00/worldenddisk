@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 
@@ -8,6 +8,13 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-
   integrations: [mdx()],
+  fonts: [
+    {
+      provider: fontProviders.fontsource(),
+      name: "Quattrocento",
+      cssVariable: "--font-quattrocento",
+      weights: [700],
+    },
+  ],
 });

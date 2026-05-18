@@ -1,14 +1,16 @@
 ---
 import SiteGrid from "@/components/site/SiteGrid.astro";
 import "@/styles/global.css";
+import Font from "astro/components/Font.astro";
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.png" />
+    <Font cssVariable="--font-quattrocento" preload />
     <title>Ada Null</title>
   </head>
   <body>
