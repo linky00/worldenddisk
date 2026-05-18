@@ -2,6 +2,9 @@
 
 @theme {
   --font-title: var(--font-quattrocento);
+
+  --sidebar-width: 250px;
+  --site-title-left: 16px;
 }
 
 @utility shape-rendering-crisp {
