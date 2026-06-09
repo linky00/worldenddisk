@@ -5,7 +5,7 @@ date = 2024-07-04T11:58:40+01:00
     release = 2024-05-23
     titleFormat = ['Cave']
     year = '2024'
-    hero = 'photo-1.jpg'
+    hero = 'amaze.png'
     selected = true
 +++
 
@@ -23,8 +23,11 @@ Featuring illustrations by [Martha Tromans](https://www.instagram.com/marthatrom
 
 {{< /overview >}}
 
-{{< img src=table-cards.png >}}
+{{< img src=ljmu.jpg >}}
 
 There are several moments in the game that allow you to directly interact with your fellow players, such as rolling back a rock together or making a certain path inaccessible to others. Most of the time, however, you must remain silent, except for speaking aloud echoes of your current location.
 
-_(hero image photographed by [Ellie Morris](https://www.instagram.com/star.artt2/))_
+{{< gallery >}}
+{{< img src=vanda.jpg >}}
+{{< img src=table-cards.png >}}
+{{< /gallery >}}
