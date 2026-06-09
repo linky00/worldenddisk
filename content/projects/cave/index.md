@@ -31,3 +31,5 @@ There are several moments in the game that allow you to directly interact with y
 {{< img src=vanda.jpg >}}
 {{< img src=table-cards.png >}}
 {{< /gallery >}}
+
+If you're wondering why I'm sometimes wearing a silly hat on top of the outfit, ask [Marie Foulston](https://www.tigershungry.co.uk/).
