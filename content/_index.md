@@ -18,8 +18,9 @@ Selected works include:
 - {{< internal-link "projects/our-boat-the-thread" >}}, a motorboat journey into the underworld
 - {{< internal-link "projects/kiss-garden" >}}, a narrative simulation of dyke sex and malaise
 - {{< internal-link "projects/experimenting-with-knives" >}}, a story about art students, a camera, and a knife
-- {{< internal-link "projects/records-of-babel" >}}, a fractured story of a failed people
 - {{< internal-link "projects/cave">}}, a multiplayer adventure game dealt in cards
+- {{< internal-link "projects/records-of-babel" >}}, a fractured story of a failed people
+- {{< internal-link "projects/in-that-great-fire" >}}, a burning city of index cards and receipts
 - {{< internal-link "projects/meatspace-ephemera" >}}, an online game of dying memories
 
 She has also produced a number of exhibitions including {{< internal-link "projects/limits-and-demonstrations" >}}, a group show celebrating the ambitious and the strange.

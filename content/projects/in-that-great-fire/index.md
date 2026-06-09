@@ -6,6 +6,7 @@ date = 2025-02-20T10:18:43Z
     titleFormat = ["IN THAT", "GREAT FIRE"]
     year = '2024'
     hero = 'cards-full.jpg'
+    selected = true
 +++
 
 {{< overview >}}
