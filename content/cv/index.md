@@ -47,9 +47,13 @@ date = 2024-11-16T01:14:01Z
 
 {{< internal-link "projects/bonfire" >}} @ _Brewery Show_, The Park Brewery, London
 
+## Talks
+
+[_Dyke sex and ennui: Generating unending narrative in 'Kiss Garden'_](https://youtu.be/VzoruhRyvqQ?si=60tpEZZzFp3AvUFx), at Roguelike Celebration on {{< internal-link "projects/kiss-garden" >}}, October 2025
+
 ## Publications
 
-_Hail to the Great City_ published in _The Zium Digest_
+_Hail to the Great City_, published in _The Zium Digest_, April 2026
 
 ## Press
 
