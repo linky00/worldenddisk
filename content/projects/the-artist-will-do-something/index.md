@@ -3,7 +3,7 @@ title = 'The Artist Will Do Something'
 date = 2026-07-22T14:58:50+01:00
 [params]
     release = 2020-10-01
-    titleFormat = ["The Artist", "Will Do Something"]
+    titleFormat = ["The Artist", "Will Do", "Something"]
     year = '2020'
     hero = 'scarf.png'
 +++
