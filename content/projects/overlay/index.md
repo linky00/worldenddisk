@@ -4,7 +4,7 @@ date = 2026-07-22T14:37:26+01:00
 [params]
     release = 2023-12-01
     titleFormat = ["Overlay"]
-    year = '2024'
+    year = '2023'
     hero = 'snow.png'
 +++
 
