@@ -43,7 +43,7 @@ Depending on the path taken, the game concludes in one of three wildly divergent
 
 The game was produced in collaboration with [Alex Brettell](https://www.instagram.com/folkvutur/). He produced the wooden tiller controller and the incredible soundscape.
 
-_our boat, the Thread_ has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/), and [Voidspace Live 2025](https://voidspacezine.com/).
+_our boat, the Thread_ has been installed at {{< internal-link "projects/limits-and-demonstrations" >}}, [Shuffle](https://shuffleshuffleshuffle.co.uk/), [the 2024 Degree Show at LJMU](https://lsad.co.uk/students/ada-null/), [Voidspace Live 2025](https://voidspacezine.com/), and Strange Play - London Games Week.
 
 {{< gallery >}}
 {{< img src=limits.jpg >}}
