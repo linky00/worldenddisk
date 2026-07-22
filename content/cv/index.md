@@ -9,6 +9,7 @@ date = 2024-11-16T01:14:01Z
 
 ### 2026
 
+{{< internal-link "projects/in-that-great-fire" >}} @ _Electromagnetic Field 2026_, Electromagnetic Field, Ledbury \
 {{< internal-link "projects/cave" >}} + {{< internal-link "projects/in-that-great-fire" >}} @ _Voidspace Live 2026_, Theatre Deli, London \
 {{< internal-link "projects/cave" >}} @ _Car Boot Casino - A MAZE. / Berlin 2026_, Silent Green, Berlin \
 {{< internal-link "projects/our-boat-the-thread" >}} + {{< internal-link "projects/kiss-garden" >}} @ _Strange Play - London Games Week_, Theatre Deli, London \
