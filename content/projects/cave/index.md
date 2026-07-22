@@ -23,13 +23,14 @@ Featuring illustrations by [Martha Tromans](https://www.instagram.com/marthatrom
 
 {{< /overview >}}
 
-{{< img src=ljmu.jpg >}}
+{{< img src=voidspace.jpg >}}
 
 There are several moments in the game that allow you to directly interact with your fellow players, such as rolling back a rock together or making a certain path inaccessible to others. Most of the time, however, you must remain silent, except for speaking aloud echoes of your current location.
 
 {{< gallery >}}
 {{< img src=vanda.jpg >}}
+{{< img src=ljmu.jpg >}}
 {{< img src=table-cards.png >}}
 {{< /gallery >}}
 
-If you're wondering why I'm sometimes wearing a silly hat on top of the outfit, ask [Marie Foulston](https://www.tigershungry.co.uk/).
+_Cave_ has been shown at the V&A, A MAZE., and Voidspace. If you're wondering why I'm sometimes wearing a silly hat on top of the outfit, ask [Marie Foulston](https://www.tigershungry.co.uk/).
