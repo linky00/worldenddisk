@@ -5,7 +5,7 @@ date = 2024-11-16T01:14:01Z
     titleFormat = ['CV']
 +++
 
-## Exhibitions
+## Showing
 
 ### 2026
 
@@ -47,22 +47,17 @@ date = 2024-11-16T01:14:01Z
 
 {{< internal-link "projects/bonfire" >}} @ _Brewery Show_, The Park Brewery, London
 
-## Talks
+## Talking
 
 [_Dyke sex and ennui: Generating unending narrative in 'Kiss Garden'_](https://youtu.be/VzoruhRyvqQ?si=60tpEZZzFp3AvUFx), at Roguelike Celebration on {{< internal-link "projects/kiss-garden" >}}, October 2025
 
-## Publications
+## Publishing
 
 _Hail to the Great City_, published in _The Zium Digest_, April 2026
 
-## Press
+## Writing (on me)
 
 [_The Exhibition as Performance_](https://www.proquest.com/openview/e786f177b5a329651129e7b927254968), Sarah James on {{< internal-link "projects/limits-and-demonstrations" >}}, Art Monthly, September 2024 \
 [_the LJMU degree show_](https://thewhitepube.co.uk/texts/2024/ljmu-degree-show/), The White Pube on {{< internal-link "projects/our-boat-the-thread" >}}, June 2024
-
-## Education
-
-BA Fine Art at Liverpool John Moores University \
-Foundation Diploma in Art, Design & Media Practice at Kingston University
 
 {{< img src=me.png >}}
