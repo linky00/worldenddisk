@@ -30,6 +30,16 @@ After writing their own descriptions of the city on index cards, the players eac
 - An **artist**, who uses the _scalpel_ to cut phrases from the players' writing, and composes them into a poem
 - A **prentice**, who races to recover artifacts illustrated by the players into an _envelope_ before they are destroyed by the fire
 - A **statistician**, who must measure and record onto their _clipboard_ increasingly many lexical statistics about the city
-- A **killer**, who hunts the other players and drips _red ink_ footsteps onto the index cards
+- **Someone who hungers**, who hunts the other players and drips _red ink_ footsteps onto the index cards
 - And **The Great Fire** itself, who rips up artifacts and with a _black marker pen_ destroys the descriptions of the city
 
+{{< gallery >}}
+
+{{< img src=voidspace11.jpg >}}
+{{< img src=voidspace1.jpg >}}
+{{< img src=voidspace10.jpg >}}
+{{< img src=voidspace12.jpg >}}
+
+{{< /gallery >}}
+
+{{< img src=voidspace5.jpg >}}
