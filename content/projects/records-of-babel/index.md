@@ -21,7 +21,7 @@ _Records of Babel_ is a fragmentary narrative of a future that never lived. I ha
 
 {{< overview-images >}}
 
-{{< img src=people6.png >}}
+{{< img src=screenshot3.png >}}
 
 {{< /overview-images >}}
 
@@ -37,15 +37,16 @@ _Records of Babel_ is a fragmentary narrative of a future that never lived. I ha
 
 Across ~five~ four acts, the tale of a tower constructed, lived in, and ultimately abandoned is told from several entirely different perspectives. An old man recounts the lives of the two Bastard Sisters who led the Babylonian people, while an impartial timeline warns of the swelling imperial forces outside the tower. A future explorer writes letters to his wife as he ascends the abandoned tower. The gods watch on from above.
 
-{{< gallery >}}
-
-{{< img src=act3.png >}}
-
-{{< img src=act5.png >}}
-
-{{< /gallery >}}
+{{< img src=screenshot5.png >}}
 
 The work was originally produced as laser-engraved into wood panels, layering 3D renderings and experimental writing. It was later adapted into a virtual space for [The Zium Railway](https://theziumsociety.itch.io/the-zium-railway).
+
+{{< gallery >}}
+
+{{< img src=poster-rh.png >}}
+{{< img src=poster-zium.png >}}
+
+{{< /gallery >}}
 
 {{< img src=people7-wide.png >}}
 
@@ -53,6 +54,6 @@ The work was originally produced as laser-engraved into wood panels, layering 3D
 
 {{< img src=everton1.png >}}
 {{< img src=people3.png >}}
-{{< img src=everton3.png >}}
+{{< img src=screenshot7.png >}}
 
 {{< /gallery >}}
