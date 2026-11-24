@@ -2,9 +2,9 @@
 title = 'Records of Babel'
 date = 2025-06-19T13:52:49+01:00
 [params]
-    release = 2025-05-02
+    release = 2026-09-13
     titleFormat = ["Records", "of Babel"]
-    year = '2025'
+    year = '2025-6'
     hero = 'people8-wide.png'
     selected = true
 +++
@@ -45,11 +45,9 @@ Across ~five~ four acts, the tale of a tower constructed, lived in, and ultimate
 
 {{< /gallery >}}
 
-The four acts are laser-engraved into wood panels, layering 3D renderings and experimental writing. A fifth act is hidden away, describing in pure prose the sin that broke the tower's people.
+The work was originally produced as laser-engraved into wood panels, layering 3D renderings and experimental writing. It was later adapted into a virtual space for [The Zium Railway](https://theziumsociety.itch.io/the-zium-railway).
 
 {{< img src=people7-wide.png >}}
-
-_Records of Babel_ has so far been exhibited in two community gardens: Everton Community Garden as part of the show _Ground Works_, and Royal Holloway Community Garden as a solo exhibition.
 
 {{< gallery >}}
 
