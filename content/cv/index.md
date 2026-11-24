@@ -49,7 +49,8 @@ date = 2024-11-16T01:14:01Z
 
 ## Talking
 
-[_Dyke sex and ennui: Generating unending narrative in 'Kiss Garden'_](https://youtu.be/VzoruhRyvqQ?si=60tpEZZzFp3AvUFx), at Roguelike Celebration on {{< internal-link "projects/kiss-garden" >}}, October 2025
+[_Dyke sex and ennui: Generating unending narrative in 'Kiss Garden'_](https://youtu.be/VzoruhRyvqQ?si=60tpEZZzFp3AvUFx), at Roguelike Celebration on {{< internal-link "projects/kiss-garden" >}}, October 2025 \
+_Records of Babel in The Zium Railway or, Sometimes Things Are The Way They Are Because It's Easier That Way_ at Untitled Games Event in Amsterdam, October 2026
 
 ## Publishing
 
